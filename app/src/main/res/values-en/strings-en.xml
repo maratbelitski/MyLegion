@@ -1,0 +1,62 @@
+<resources>
+
+    <!--    <b>жирный шрифт</b>-->
+    <!--    <i>наклонный шрифт</i>-->
+    <!--    <u>подчеркнутый шрифт</u>-->
+
+    <string name="app_name" translatable="false">MyLegion</string>
+
+    <string name="toolbar_history">MyLegion. History</string>
+    <string name="toolbar_history_creation">MyLegion. History of creation</string>
+    <string name="toolbar_military_campaigns">MyLegion. Military campaigns</string>
+    <string name="toolbar_tradition">MyLegion. Tradition</string>
+    <string name="toolbar_legion_today">MyLegion. Legion today</string>
+    <string name="toolbar_legion_regiments">MyLegion. Legion regiments</string>
+    <string name="toolbar_legion_candidate">MyLegion. Candidate</string>
+    <string name="toolbar_officially">MyLegion. Officially</string>
+    <string name="toolbar_question_answer">MyLegion. Question/Answer</string>
+    <string name="toolbar_preparation">MyLegion.Preparation</string>
+
+
+    <string name="button_history">History</string>
+    <string name="button_war">military campaigns</string>
+    <string name="button_tradition">traditions</string>
+    <string name="button_history_creation">history of creation</string>
+    <string name="button_legion_today">Legion today</string>
+    <string name="button_candidate">candidate</string>
+    <string name="button_officially">officially</string>
+    <string name="button_preparation">preparation</string>
+    <string name="button_question_answer">question/answer</string>
+
+
+    <string name="button_videos_engagement">\ video: selection</string>
+    <string name="button_videos_legion">\ video: legion</string>
+    <string name="button_videos_conditions1">\ video: entrance</string>
+    <string name="button_videos_conditions2">\ video: luke legere</string>
+    <string name="button_videos_conditions3">\ video: pull-up</string>
+
+
+    <string name="possibility_tab">Possibility</string>
+    <string name="conditions_tab">Conditions</string>
+    <string name="centers_tab">Centers</string>
+
+    <string name="layout_advice"><b>ADVICE</b></string>
+    <string name="text_advice1">Чтоб буй стоял и шлюпки были!</string>
+
+
+
+
+
+
+    <string name="name_regiment_0">2 REI\n2 trops foreign regiment</string>
+    <string name="name_regiment_1">3 REI\n3 trops foreign regiment</string>
+
+
+    <string name="name_description_0">bla-bla-bla</string>
+    <string name="name_description_1">bla-bla-bla</string>
+
+
+    <string name="history_create_text">coming soon</string>
+    <string name="war_text">coming soon</string>
+    <string name="tradition_text">coming soon</string>
+</resources>

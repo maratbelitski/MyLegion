@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_main"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/s_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_marginEnd="@dimen/padding"
+            android:background="@drawable/custom_buttons_main" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_leg" />
+
+        <Button
+            android:id="@+id/b_history"
+            android:layout_width="@dimen/width_button_main"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_buttons_main"
+            android:onClick="showHistory"
+            android:padding="@dimen/padding"
+            android:text="@string/button_history"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+
+        <Button
+            android:id="@+id/b_regiment_today"
+            android:layout_width="@dimen/width_button_main"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_buttons_main"
+            android:onClick="showRegiments"
+            android:padding="@dimen/padding"
+            android:text="@string/button_legion_today"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+
+        <Button
+            android:id="@+id/b_candidate"
+            android:layout_width="@dimen/width_button_main"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_buttons_main"
+            android:onClick="showCandidate"
+            android:padding="@dimen/padding"
+            android:text="@string/button_candidate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showYouTube"
+            android:src="@mipmap/button_youtube_round" />
+
+        <ImageButton
+            android:id="@+id/b_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showWebsite"
+            android:src="@mipmap/button_website_round" />
+
+        <ImageButton
+            android:id="@+id/b_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showInstagram"
+            android:src="@mipmap/button_instagram_round" />
+    </LinearLayout>
+</FrameLayout>

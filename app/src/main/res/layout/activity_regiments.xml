@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_legion_today"
+    android:orientation="vertical"
+    tools:context=".today.RegimentsActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/head_leg_today"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text1_legion_today"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text2_legion_today"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:src="@drawable/legion_today_regiments"
+                android:scaleType="centerCrop"/>
+
+            <Button
+                android:id="@+id/b_list_choice_0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_1re_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:text="@string/b_list_choice_0"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_list_choice_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_1rec_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_list_choice_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_1reg_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_list_choice_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_2reg_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_list_choice_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_2rei_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_4"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_2rep_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_3rei_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_4re_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_7"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_13dble_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_8"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_dlem_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_9"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+            <Button
+                android:id="@+id/b_list_choice_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:drawableStart="@mipmap/button_grle_round"
+                android:gravity="start|center_vertical"
+                android:onClick="showRegimentDetails"
+                android:layout_marginStart="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginEnd="@dimen/padding"
+                android:text="@string/b_list_choice_10"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_button" />
+
+
+
+            <!--        <ListView-->
+            <!--            android:id="@+id/list_regiments"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="740dp"-->
+            <!--            android:padding="16dp" />-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text3_legion_today"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

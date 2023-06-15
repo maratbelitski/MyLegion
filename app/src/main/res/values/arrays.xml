@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names_regiments" translatable="false">
+        <item>1 RE</item>
+        <item>1 REC</item>
+        <item>1 REG</item>
+        <item>2 REG</item>
+        <item>2 REI</item>
+        <item>2 REP</item>
+        <item>3 REI</item>
+        <item>4 RE</item>
+        <item>13 DBLE</item>
+        <item>DLEM</item>
+        <item>GRLE</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>РУС</item>
+        <item>АНГ</item>
+    </string-array>
+</resources>

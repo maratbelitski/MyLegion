@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".candidate.CandidateActivity"
+    android:background="@drawable/fon_candidates">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/b_officially"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_buttons_history"
+        android:onClick="showButtonAction"
+        android:padding="@dimen/padding"
+        android:text="@string/button_officially"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_button" />
+    <Button
+        android:id="@+id/b_preparation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttons_history"
+        android:onClick="showButtonAction"
+        android:padding="@dimen/padding"
+        android:text="@string/button_preparation"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_button" />
+
+    <Button
+        android:id="@+id/b_question_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttons_history"
+        android:onClick="showButtonAction"
+        android:padding="@dimen/padding"
+        android:text="@string/button_question_answer"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_text_button" />
+    </LinearLayout>
+
+</FrameLayout>
