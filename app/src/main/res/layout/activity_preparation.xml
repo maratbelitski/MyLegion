@@ -46,9 +46,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="start"
-                android:paddingStart="@dimen/padding"
-                android:paddingEnd="@dimen/padding"
+                android:padding="@dimen/padding"
                 android:text="@string/text_advice1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_preparation2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <include
+                layout="@layout/layout_advice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_advice2"
                 android:textColor="@color/black"
                 android:textSize="@dimen/size_text_normal" />
         </LinearLayout>
