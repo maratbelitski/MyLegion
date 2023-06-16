@@ -14,7 +14,7 @@ import android.widget.Button;
 
 import com.example.frenchforeignlegion.R;
 
-public class PreparationActivity extends AppCompatActivity implements View.OnClickListener {
+public class PreparationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,23 +28,10 @@ public class PreparationActivity extends AppCompatActivity implements View.OnCli
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
-
-        Button b_preparation = findViewById(R.id.b_preparation);
-        Button b_preparation2 = findViewById(R.id.b_preparation2);
-        Button b_preparation3 = findViewById(R.id.b_preparation3);
-        Button b_preparation4 = findViewById(R.id.b_preparation4);
-        Button b_preparation5 = findViewById(R.id.b_preparation5);
-        Button b_preparation6 = findViewById(R.id.b_preparation6);
-        b_preparation.setOnClickListener(this);
-        b_preparation2.setOnClickListener(this);
-        b_preparation3.setOnClickListener(this);
-        b_preparation4.setOnClickListener(this);
-        b_preparation5.setOnClickListener(this);
-        b_preparation6.setOnClickListener(this);
     }
 
-    @Override
-    public void onClick(View v) {
+
+    public void showLink(View v) {
         String id = "";
         int temp = v.getId();
 

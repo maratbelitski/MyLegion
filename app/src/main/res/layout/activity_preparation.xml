@@ -92,7 +92,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_conditions3"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -105,7 +105,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_conditions2"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -118,7 +118,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_preparations3"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -179,7 +179,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_preparations4"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -192,7 +192,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_preparations5"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -205,7 +205,7 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
+                android:onClick="showLink"
                 android:text="@string/button_videos_preparations6"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -225,6 +225,29 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/size_text_normal" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_preparation5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <include
+                layout="@layout/layout_advice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_advice5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
