@@ -32,9 +32,15 @@ public class PreparationActivity extends AppCompatActivity implements View.OnCli
         Button b_preparation = findViewById(R.id.b_preparation);
         Button b_preparation2 = findViewById(R.id.b_preparation2);
         Button b_preparation3 = findViewById(R.id.b_preparation3);
+        Button b_preparation4 = findViewById(R.id.b_preparation4);
+        Button b_preparation5 = findViewById(R.id.b_preparation5);
+        Button b_preparation6 = findViewById(R.id.b_preparation6);
         b_preparation.setOnClickListener(this);
         b_preparation2.setOnClickListener(this);
         b_preparation3.setOnClickListener(this);
+        b_preparation4.setOnClickListener(this);
+        b_preparation5.setOnClickListener(this);
+        b_preparation6.setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +54,12 @@ public class PreparationActivity extends AppCompatActivity implements View.OnCli
             id = "https://www.youtube.com/watch?v=riTvwqoJR2s&list=PLXWwK0BIfm23hMEdqko036s-zDr6lZeKz&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
         } else if (temp == R.id.b_preparation3) {
             id = "https://yandex.by/video/preview/7176945764766152846";
+        }else if (temp == R.id.b_preparation4) {
+            id = "https://yandex.by/video/preview/17914772488282979200";
+        } else if (temp == R.id.b_preparation5) {
+            id = "https://www.assessmentday.co.uk/aptitudetests_logical.htm";
+        }else if (temp == R.id.b_preparation6) {
+            id = "https://www.123test.com/spatial-reasoning-test/ ";
         }
         Intent intent = new Intent(ACTION_VIEW, Uri.parse(id));
         startActivity(intent);
