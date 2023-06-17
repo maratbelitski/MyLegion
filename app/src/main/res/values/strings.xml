@@ -984,4 +984,274 @@ Recrutement.pile-de-Lille@legion-etrangere.com\n\n
 Не прекращайте работать над собой, над своей мотивацией, над своим здоровьем и
 обучением даже после подписания контракта. Ниже будут ссылки на то, с чем сталкиваются легионеры.
 </string>
+
+    <string name="text_preparation7"><b>Французский язык.</b>\n
+Уже на этапе поступления рекомендуется осваивать французский язык.
+Запишитесь на курсы или начните изучать самостоятельно до поездки, тренируйтесь на приложениях.
+Знания языка на этапе отбора будет являться плюсом для вас. Уже во время службы с легионерами
+буду проводиться занятия по языку, но без самостоятельной подготовки не обойтись.\n\n
+<b>Небольшой набор слов и выражений на первое время.</b>
+\n\n<b>Bonne chance                     </b>
+\nУдачи
+\n\n<b>Bonne journée                    </b>
+\nХорошего дня
+\n\n<b>Bon week-end                     </b>
+\nХороших выходных
+\n\n<b>À ce soir                        </b>
+\nДо вечера
+\n\n<b>Excusez-moi                      </b>
+\nПростите
+\n\n<b>Mademoiselle !                   </b>
+\nДевушка!
+\n\n<b>Monsieur !                       </b>
+\nМолодой человек!
+\n\n<b>Camarades !                      </b>
+\nДрузья!
+\n\n<b>S\’il vous plait                 </b>
+\nПожалуйста
+\n\n<b>Merci                            </b>
+\nСпасибо
+\n\n<b>Merci beaucoup                   </b>
+\nБольшое спасибо
+\n\n<b>Bonne journée                    </b>
+\nХорошего дня
+\n\n<b>Bon week-end                     </b>
+\nХороших выходных
+\n\n<b>À ce soir                        </b>
+\nДо вечера
+\n\n<b>Excusez-moi                      </b>
+\nПростите
+\n\n<b>Madame !                         </b>
+\nЖенщина
+\n\n<b>Camarades !                      </b>
+\nДрузья!
+\n\n<b>S\’il vous plait                 </b>
+\nПожалуйста
+\n\n<b>Merci                            </b>
+\nСпасибо
+\n\n<b>Merci beaucoup                   </b>
+\nБольшое спасибо
+\n\n<b>De rien                          </b>
+\nНе за что
+\n\n<b>(Je suis) Désolé(e)              </b>
+\nМне жаль
+\n<b>Je n\’ai pas entendu             </b>
+\nПростите, я не расслышал(а)
+\n\n<b>Repetez, si\’il vous plait       </b>
+\nПовторите пожалуйста
+\n\n<b>Pardon                           </b>
+\nИзвините
+\n\n<b>Merci puor votre conseil         </b>
+\nСпасибо за совет
+\n\n<b>Bon appetit                      </b>
+\nПриятного аппетита
+\n\n<b>Comment vous appellez — vous ?   </b>
+\nКак вас зовут?
+\n\n<b>Comment t\'appelles-tu ?         </b>
+\nКак тебя зовут?
+\n\n<b>Je m\’appelle                    </b>
+\nМеня зовут
+\n\n<b>Mon nom de famille est           </b>
+\nМоя фамилия
+\n\n<b>D\'ou venez-vous ?               </b>
+\nОткуда Вы родом?
+\n\n<b>Comment ça va ?                  </b>
+\nКак дела?
+\n\n<b>Comment allez-vous ?             </b>
+\nКак поживаете?
+\n\n<b>Comment vas-tu ?                 </b>
+\nКак поживаешь?
+\n\n<b>Très bien. Et vous ?             </b>
+\nВсе хорошо. А у Вас?
+\n\n<b>Merci, ça va                     </b>
+\nСпасибо, хорошо
+\n\n<b>Ça va                            </b>
+\nВсё в порядке
+\n\n<b>Comme ci, comme ca               </b>
+\nТак себе
+\n\n<b>Parlez-vous anglais ?            </b>
+\nВы говорите по-английски?
+\n\n<b>Parlez-vous russe ?              </b>
+\nВы говорите по-русски?
+\n\n<b>Combien ?                        </b>
+\nСколько?
+\n<b>Amenez-moi là, je vous prie      </b>
+\n        Привезите меня сюда,   пожалуйста
+\n\n<b>Je me suis egaré                 </b>
+\n        Я заблудился
+\n\n<b>Comment aller  ?                 </b>
+\n        Как проехать ?
+\n\n<b>au centre de la ville            </b>
+\n        к центру города
+\n\n<b>Pourriez-vous m\'accompagner à  ?</b>
+\n        Не могли бы вы проводить меня до ?
+\n\n<b>Aidez-moi, s\’il vous plait      </b>
+\n        Помогите мне пожалуйста
+\n\n<b>Je suis malade                   </b>
+\n        Мне плохо
+\n\n<b>J\’ai mal au coeur               </b>
+\n        Меня тошнит
+\n\n<b>J\’ai mal à la tête/au ventre    </b>
+\n        У меня болит голова/живот
+\n\n<b>Je me suis casse la jambe/le bras</b>
+\n        Я сломал ногу/руку
+\n\n<b>Puis-je utiliser votre portable? </b>
+\n        Можно воспользоваться вашим телефоном
+\n\n<b>J\'ai besoin                     </b>
+\n        Мне нужно
+\n\n<b>d\'un analgésique                </b>
+\n        обезболивающее
+\n\n<b>d\'un remède pour l\'estomac     </b>
+\n        лекарство от боли в животе
+\n\n<b>maintenant                       </b>
+\n        Сейчас
+\n\n<b>plus tard                        </b>
+\n        Позже
+\n\n<b>avant                            </b>
+\n        Перед
+\n\n<b>après                            </b>
+\n        После
+\n\n<b>le matin                         </b>
+\n        Утро
+\n\n<b>au matin                         </b>
+\n        Утром
+\n\n<b>l\'après-midi                    </b>
+\n        День
+\n\n<b>le soir                          </b>
+\n        Вечер
+\n\n<b>la nuit                          </b>
+\n        Ночь
+\n\n<b>heure du matin                   </b>
+\n        час ночи
+\n\n<b>deux heures du matin             </b>
+\n        два часа ночи
+\n\n<b>midi                             </b>
+\n        полдень
+\n\n<b>sept heures et demi        </b>
+\n        семь тридцать вечера
+\n\n<b>minuit                     </b>
+\n        полночь
+\n\n<b>minute(s)                  </b>
+\n        Минут
+\n\n<b>heure(s)                   </b>
+\n        Часов
+\n\n<b>jour(s)                    </b>
+\n        Дней
+\n\n<b>semaine(s)                 </b>
+\n        Недель
+\n\n<b>mois                       </b>
+\n        Месяцев
+\n\n<b>an(s)                      </b>
+\n        Лет
+\n\n<b>aujourd\'hui               </b>
+\n        Сегодня
+\n\n<b>hier                       </b>
+\n        Вчера
+\n\n<b>demain                     </b>
+\n        Завтра
+\n\n<b>cette semaine              </b>
+\n        На этой неделе
+\n\n<b>la semaine dernière        </b>
+\n        На прошлой неделе
+\n\n<b>la semaine prochaine       </b>
+\n        На следующей неделе
+\n\n<b>lundi                      </b>
+\n        Понедельник
+\n\n<b>mardi                      </b>
+\n        Вторник
+\n\n<b>mercredi                   </b>
+\n        Среда
+\n\n<b>jeudi                      </b>
+\n        Четверт
+\n\n<b>vendredi                   </b>
+\n        Пятница
+\n\n<b>samedi                     </b>
+\n        Суббота
+\n\n<b>dimanche                   </b>
+\n        Воскресенье
+\n\n<b>un, une                    </b>
+\n        1
+\n\n<b>deux                       </b>
+\n        2
+\n\n<b>trois                      </b>
+\n        3
+\n\n<b>quatre                     </b>
+\n        4
+\n\n<b>cinq                       </b>
+\n        5
+\n\n<b>six                        </b>
+\n        6
+\n\n<b>sept                       </b>
+\n        7
+\n\n<b>huit                       </b>
+\n        8
+\n\n<b>neuf                       </b>
+\n        9
+\n\n<b>dix                        </b>
+\n        10
+\n\n<b>onz                        </b>
+\n        11
+\n\n<b>douze                      </b>
+\n        12
+\n\n<b>treize                     </b>
+\n        13
+\n\n<b>quatorze                   </b>
+\n        14
+\n\n<b>quinze                     </b>
+\n        15
+\n\n<b>seize                      </b>
+\n        16
+\n\n<b>dix-sept                   </b>
+\n        17
+\n\n<b>dix-huit                   </b>
+\n        18
+\n\n<b>dix-neuf                   </b>
+\n        19
+\n\n<b>vingt                      </b>
+\n        20
+\n\n<b>vingt et un                </b>
+\n        21
+\n\n<b>vingt-deux                 </b>
+\n        22
+\n\n<b>vingt-trois                </b>
+\n        23
+\n\n<b>trente                     </b>
+\n        30
+\n\n<b>quarante                   </b>
+\n        40
+\n\n<b>cinquante                  </b>
+\n        50
+\n\n<b>soixante                   </b>
+\n        60
+\n\n<b>soixante-dix               </b>
+\n        70
+\n\n<b>quatre-vingt(s)            </b>
+\n        80
+\n\n<b>quatre-vingt-dix           </b>
+\n        90
+\n\n<b>cent                       </b>
+\n        100
+\n\n<b>noire      	              </b>
+\n        черный/черная
+\n\n<b>nblanc/blanche             </b>
+\n        белый/белая
+\n\n<b>ngris/grise                </b>
+\n        серый/серая
+\n\n<b>rouge                      </b>
+\n        красный/красная
+\n\n<b>bleu/bleue                 </b>
+\n        синий/синяя
+\n\n<b>jaune                      </b>
+\n        желтый/желтая
+\n\n<b>vert/verte                 </b>
+\n        зеленый/зеленая
+\n\n<b>orange                     </b>
+\n        оранжевый/оранжевая
+\n\n<b>violet/violette            </b>
+\n        фиолетовый/фиолетовая
+\n\n<b>marron        	          </b>
+\n        коричневый/коричневая
+\n\n<b>rose                       </b>
+\n        розовый/розовая
+</string>
 </resources>
