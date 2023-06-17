@@ -248,6 +248,67 @@
                 android:text="@string/text_advice5"
                 android:textColor="@color/black"
                 android:textSize="@dimen/size_text_normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_preparation6"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <Button
+                android:id="@+id/b_preparation7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_preparations7"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_preparation8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_preparations8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_preparation9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_preparations9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_preparation10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_preparations10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

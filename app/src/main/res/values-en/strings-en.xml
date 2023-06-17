@@ -4,8 +4,6 @@
     <!--    <i>наклонный шрифт</i>-->
     <!--    <u>подчеркнутый шрифт</u>-->
 
-    <string name="app_name" translatable="false">MyLegion</string>
-
     <string name="toolbar_history">MyLegion. History</string>
     <string name="toolbar_history_creation">MyLegion. History of creation</string>
     <string name="toolbar_military_campaigns">MyLegion. Military campaigns</string>
@@ -36,13 +34,17 @@
     <string name="button_videos_conditions3">\ video: pull-up</string>
     <string name="button_videos_preparations3">\ video: luke legere 2</string>
     <string name="button_videos_preparations4">\ video: legion tests</string>
-    <string name="button_videos_preparations5">\ video: tests</string>
-    <string name="button_videos_preparations6">\ video: space</string>
-
+    <string name="button_videos_preparations5">\ example: tests</string>
+    <string name="button_videos_preparations6">\ example: space</string>
+    <string name="button_videos_preparations7">\ video: parkour</string>
+    <string name="button_videos_preparations8">\ video: commando</string>
+    <string name="button_videos_preparations9">\ video: jungle</string>
+    <string name="button_videos_preparations10">\ video: service</string>
 
     <string name="possibility_tab">Possibility</string>
     <string name="conditions_tab">Conditions</string>
     <string name="centers_tab">Centers</string>
+
 
     <string name="layout_advice"><b>ADVICE</b></string>
     <string name="text_advice1">Чтоб буй стоял и шлюпки были!</string>

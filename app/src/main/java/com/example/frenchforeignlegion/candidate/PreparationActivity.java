@@ -47,6 +47,14 @@ public class PreparationActivity extends AppCompatActivity {
             id = "https://www.assessmentday.co.uk/aptitudetests_logical.htm";
         }else if (temp == R.id.b_preparation6) {
             id = "https://www.123test.com/spatial-reasoning-test/ ";
+        }else if (temp == R.id.b_preparation7) {
+            id = "https://yandex.by/video/preview/9499861491050030565 ";
+        }else if (temp == R.id.b_preparation8) {
+            id = "https://www.youtube.com/watch?v=BiTJPArBY4g&list=PLEF03FB2C2C122A9E&index=7&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
+        } else if (temp == R.id.b_preparation9) {
+            id = "https://www.youtube.com/watch?v=9H-YzwU0TvM&list=PLEF03FB2C2C122A9E&index=11&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re ";
+        }else if (temp == R.id.b_preparation10) {
+            id = "https://yandex.by/video/preview/10866085358551954355";
         }
         Intent intent = new Intent(ACTION_VIEW, Uri.parse(id));
         startActivity(intent);
