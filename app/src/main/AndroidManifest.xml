@@ -13,10 +13,13 @@
         android:theme="@style/NoActionBar"
         tools:targetApi="33">
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".candidate.PreparationActivity"
             android:exported="false"
             android:parentActivityName=".candidate.CandidateActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".candidate.OfficiallyActivity"
             android:exported="false"

@@ -11,17 +11,29 @@
         layout="@layout/toolbar_main" />
 
     <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
         android:scrollbars="none">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding"
-            android:text="@string/tradition_text"
-            android:textColor="@color/black"
-            android:textSize="@dimen/size_text_normal" />
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header_traditions" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding"
+                android:text="@string/tradition_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+        </LinearLayout>
     </ScrollView>
 </FrameLayout>

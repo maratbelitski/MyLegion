@@ -86,13 +86,6 @@
 </string>
 
 
-
-
-
-
-
-
-
     <string name="name_regiment_0"><b>1 RE\n 1-й Иностранный полк</b> </string>
     <string name="name_regiment_1"><b>1 REC\n 1-й Иностранный кавалерийский полк</b></string>
     <string name="name_regiment_2"><b>1 REG\n 1-й Иностранный инженерно-саперный полк</b></string>
@@ -908,7 +901,7 @@ Recrutement.pile-de-Lille@legion-etrangere.com\n\n
 Также вы пройдете все остальные измерения: рост, вес, давление и тд.
 </string>
 
-<string name="text_preparation3"><b>Вступительные тесты по физической подготовке.</b>\n\n
+    <string name="text_preparation3"><b>Вступительные тесты по физической подготовке.</b>\n\n
 <u>Подтягивания.</u>\n
 Нужно подтянуться не менее 5 раз. Полные подтягивания в пронации
 (с началом с вытянутой рукой, в нижнем положении между каждым подтягиванием).
