@@ -1,20 +1,21 @@
 package com.example.frenchforeignlegion.candidate;
 
-import static android.content.Intent.ACTION_VIEW;
-
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
+import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
 import com.example.frenchforeignlegion.R;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
-public class PreparationActivity extends AppCompatActivity {
+public class PreparationActivity extends AppCompatActivity implements TabLayoutMediator.TabConfigurationStrategy{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,35 +29,64 @@ public class PreparationActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        //шаг 3 создаем ссылку на табы
+        TabLayout tabLayout2 = findViewById(R.id.tabs2);
+
+        // шаг 4 обновленный FragmentStateAdapter для swip страниц, соединяем ViewPager  с кодом
+        FragmentStateAdapter pageAdapter2 = new SelectionsPagerAdapter2(this);
+        ViewPager2 viewPager2 = findViewById(R.id.pager2);
+        viewPager2.setAdapter(pageAdapter2);
+        new TabLayoutMediator(tabLayout2, viewPager2, (TabLayoutMediator.TabConfigurationStrategy) this).attach();
     }
 
 
-    public void showLink(View v) {
-        String id = "";
-        int temp = v.getId();
-
-        if (temp == R.id.b_preparation) {
-            id = "https://www.youtube.com/watch?v=DFcorrzmcEE&t=233s&ab_channel=InvestigationsetEnqu%C3%AAtes";
-        } else if (temp == R.id.b_preparation2) {
-            id = "https://www.youtube.com/watch?v=riTvwqoJR2s&list=PLXWwK0BIfm23hMEdqko036s-zDr6lZeKz&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
-        } else if (temp == R.id.b_preparation3) {
-            id = "https://yandex.by/video/preview/7176945764766152846";
-        }else if (temp == R.id.b_preparation4) {
-            id = "https://yandex.by/video/preview/17914772488282979200";
-        } else if (temp == R.id.b_preparation5) {
-            id = "https://www.assessmentday.co.uk/aptitudetests_logical.htm";
-        }else if (temp == R.id.b_preparation6) {
-            id = "https://www.123test.com/spatial-reasoning-test/ ";
-        }else if (temp == R.id.b_preparation7) {
-            id = "https://yandex.by/video/preview/9499861491050030565 ";
-        }else if (temp == R.id.b_preparation8) {
-            id = "https://www.youtube.com/watch?v=BiTJPArBY4g&list=PLEF03FB2C2C122A9E&index=7&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
-        } else if (temp == R.id.b_preparation9) {
-            id = "https://www.youtube.com/watch?v=9H-YzwU0TvM&list=PLEF03FB2C2C122A9E&index=11&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re ";
-        }else if (temp == R.id.b_preparation10) {
-            id = "https://yandex.by/video/preview/10866085358551954355";
+    @Override
+    public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
+        switch (position) {
+            case 0:
+                tab.setText(R.string.info_tab);
+                return;
+            case 1:
+                tab.setText(R.string.medicine_tab);
+                return;
+            case 2:
+                tab.setText(R.string.sport_tab);
+                return;
+            case 3:
+                tab.setText(R.string.tests_tab);
+                return;
+            case 4:
+                tab.setText(R.string.language_tab);
         }
-        Intent intent = new Intent(ACTION_VIEW, Uri.parse(id));
-        startActivity(intent);
+    }
+    public  static class SelectionsPagerAdapter2 extends FragmentStateAdapter{
+
+        public SelectionsPagerAdapter2(@NonNull FragmentActivity fragmentActivity) {
+            super(fragmentActivity);
+        }
+
+        @NonNull
+        @Override
+        public Fragment createFragment(int position) {
+            switch (position){
+                case 0:
+                    return new InfoFragment();
+                case 1:
+                    return new MedicFragment();
+                case 2:
+                    return new SportFragment();
+                case 3:
+                    return new TestsFragment();
+                case 4:
+                    return new LanguageFragment();
+            }
+            return null;
+        }
+
+        @Override
+        public int getItemCount() {
+            return 5;
+        }
     }
 }

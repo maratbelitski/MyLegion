@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,92 +8,103 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/header_main" />
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header_main" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b_settings"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="@dimen/padding"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/custom_buttons_networks"
+                    android:drawableStart="@android:drawable/ic_menu_preferences"
+                    android:onClick="showButtonAction"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+                <Spinner
+                    android:id="@+id/s_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+                    android:layout_margin="@dimen/padding"
+                    android:background="@drawable/custom_buttons_main"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo_leg" />
 
             <Button
-                android:id="@+id/b_settings"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:layout_gravity="center|start"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_networks"
-                android:drawableStart="@android:drawable/ic_menu_preferences"
-                android:padding="5dp"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:onClick="showButtonAction">
-            </Button>
-
-            <Spinner
-                android:id="@+id/s_spinner"
-                android:layout_width="wrap_content"
+                android:id="@+id/b_history"
+                android:layout_width="@dimen/width_button_main"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center|end"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main" />
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_buttons_main"
+                android:onClick="showButtonAction"
+                android:padding="@dimen/padding"
+                android:text="@string/button_history"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_regiment_today"
+                android:layout_width="@dimen/width_button_main"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_buttons_main"
+                android:onClick="showButtonAction"
+                android:padding="@dimen/padding"
+                android:text="@string/button_legion_today"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_candidate"
+                android:layout_width="@dimen/width_button_main"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_buttons_main"
+                android:onClick="showButtonAction"
+                android:padding="@dimen/padding"
+                android:text="@string/button_candidate"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
         </LinearLayout>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="190dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo_leg" />
-
-        <Button
-            android:id="@+id/b_history"
-            android:layout_width="@dimen/width_button_main"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/custom_buttons_main"
-            android:onClick="showButtonAction"
-            android:padding="@dimen/padding"
-            android:text="@string/button_history"
-            android:textColor="@color/white"
-            android:textSize="@dimen/size_text_button" />
-
-        <Button
-            android:id="@+id/b_regiment_today"
-            android:layout_width="@dimen/width_button_main"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/custom_buttons_main"
-            android:onClick="showButtonAction"
-            android:padding="@dimen/padding"
-            android:text="@string/button_legion_today"
-            android:textColor="@color/white"
-            android:textSize="@dimen/size_text_button" />
-
-        <Button
-            android:id="@+id/b_candidate"
-            android:layout_width="@dimen/width_button_main"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/custom_buttons_main"
-            android:onClick="showButtonAction"
-            android:padding="@dimen/padding"
-            android:text="@string/button_candidate"
-            android:textColor="@color/white"
-            android:textSize="@dimen/size_text_button" />
-    </LinearLayout>
+    </ScrollView>
 
     <!--    <LinearLayout-->
     <!--        android:layout_width="match_parent"-->

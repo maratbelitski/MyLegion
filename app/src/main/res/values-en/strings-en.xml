@@ -44,6 +44,11 @@
     <string name="possibility_tab">Possibility</string>
     <string name="conditions_tab">Conditions</string>
     <string name="centers_tab">Centers</string>
+    <string name="info_tab">info</string>
+    <string name="sport_tab">sport</string>
+    <string name="medicine_tab">medic</string>
+    <string name="tests_tab">tests</string>
+    <string name="language_tab">french</string>
 
 
     <string name="layout_advice"><b>ADVICE</b></string>

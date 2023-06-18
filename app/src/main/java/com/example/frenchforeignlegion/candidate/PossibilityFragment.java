@@ -22,6 +22,7 @@ public class PossibilityFragment extends Fragment implements View.OnClickListene
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_possibility, container, false);
+
         Button b_centers = view.findViewById(R.id.b_possibility);
         b_centers.setOnClickListener(this);
 

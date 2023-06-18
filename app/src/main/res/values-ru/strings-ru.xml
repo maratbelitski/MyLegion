@@ -44,7 +44,11 @@
     <string name="possibility_tab">Профессия</string>
     <string name="conditions_tab">Условия</string>
     <string name="centers_tab">Центры</string>
-
+    <string name="info_tab">инфо</string>
+    <string name="sport_tab">спорт</string>
+    <string name="medicine_tab">мед</string>
+    <string name="tests_tab">тесты</string>
+    <string name="language_tab">язык</string>
 
     <string name="layout_advice"><b>СОВЕТ</b></string>
     <string name="text_advice1"><i>Перед тем как отправиться на отбор, соберите и проанализируйте

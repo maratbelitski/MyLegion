@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_preparation"
+    android:orientation="vertical"
+    tools:context=".candidate.SportFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/header_preparation" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_preparation3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+            <Button
+                android:id="@+id/b_preparation"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_conditions3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_preparation2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_conditions2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_preparation3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="@dimen/padding"
+                android:background="@drawable/custom_buttons_main"
+                android:drawableStart="@mipmap/button_website"
+                android:gravity="start|center_vertical"
+                android:onClick="showLink"
+                android:text="@string/button_videos_preparations3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <include
+                layout="@layout/layout_advice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:padding="@dimen/padding"
+                android:text="@string/text_advice3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_text_normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
