@@ -1,11 +1,15 @@
 package com.example.frenchforeignlegion;
+
 import static android.content.Intent.ACTION_VIEW;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
+import android.renderscript.Sampler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
@@ -23,6 +27,7 @@ import com.example.frenchforeignlegion.today.Regiments;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
 import com.example.frenchforeignlegion.today.RegimentsDetailsActivity;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
@@ -51,8 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
         Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
 
+
         List<String> languages = Arrays.asList(getResources().getStringArray(R.array.languages));
-        ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_spinner, R.id.spinner_text,languages);
+        ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_spinner, R.id.spinner_text, languages);
         spinner.setAdapter(mAdapter);
 
         //элемент спиннера меняет язык
@@ -62,12 +68,15 @@ public class MainActivity extends AppCompatActivity {
                 String selectedItem = spinner.getSelectedItem().toString();
                 if (selectedItem.equalsIgnoreCase("анг")) {
                     changeLanguage("en");
+
                 } else if (selectedItem.equalsIgnoreCase("rus")) {
                     changeLanguage("ru");
                 }
             }
+
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {}
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
         });
 
         //обрабатываем щелчек для анимации
@@ -159,21 +168,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    public void showHistory(View view) {
-//        Intent intent = new Intent(MainActivity.this, HistoryActivity.class);
-//        startActivity(intent);
-//    }
-//
-//    public void showRegiments(View view) {
-//        Intent intent = new Intent(MainActivity.this, RegimentsActivity.class);
-//        startActivity(intent);
-//    }
-//
-//    public void showCandidate(View view) {
-//        Intent intent = new Intent(MainActivity.this, CandidateActivity.class);
-//        startActivity(intent);
-//    }
-
     //открываем сайт и соцсети
 //    public void showWebsite(View view) {
 //        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://www.legion-etrangere.com/"));
@@ -190,9 +184,9 @@ public class MainActivity extends AppCompatActivity {
 //        startActivity(intent);
 //    }
 
-   /**
-    * метод для смены языка
-    * */
+    /**
+     * метод для смены языка
+     */
     public void changeLanguage(String lang) {
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);
@@ -205,15 +199,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showButtonAction(View view) {
-       Class destinations = null;
+        Class destinations = null;
         int temp = view.getId();
-        if(temp==R.id.b_settings){
-            destinations= SettingsActivity.class;
-        }else if (temp == R.id.b_history){
+        if (temp == R.id.b_settings) {
+            destinations = SettingsActivity.class;
+        } else if (temp == R.id.b_history) {
             destinations = HistoryActivity.class;
-        }else if (temp == R.id.b_regiment_today){
+        } else if (temp == R.id.b_regiment_today) {
             destinations = RegimentsActivity.class;
-        }else if (temp == R.id.b_candidate){
+        } else if (temp == R.id.b_candidate) {
             destinations = CandidateActivity.class;
         }
         Intent intent = new Intent(this, destinations);

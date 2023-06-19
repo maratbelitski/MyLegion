@@ -37,7 +37,7 @@ public class SportFragment extends Fragment implements View.OnClickListener {
         int temp = v.getId();
 
         if (temp == R.id.b_preparation) {
-            id = "https://www.youtube.com/watch?v=DFcorrzmcEE&t=233s&ab_channel=InvestigationsetEnqu%C3%AAtes";
+            id = "https://www.youtube.com/watch?v=8eHukSbYa6U&list=PLXWwK0BIfm23hMEdqko036s-zDr6lZeKz&index=2&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
         } else if (temp == R.id.b_preparation2) {
             id = "https://www.youtube.com/watch?v=riTvwqoJR2s&list=PLXWwK0BIfm23hMEdqko036s-zDr6lZeKz&ab_channel=L%C3%A9gion%C3%A9trang%C3%A8re";
         } else if (temp == R.id.b_preparation3) {

@@ -40,7 +40,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="@dimen/padding"
                 android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website"
+                android:drawableStart="@mipmap/button_website_round"
                 android:gravity="start|center_vertical"
                 android:onClick="onClick"
                 android:text="@string/button_videos_legion"

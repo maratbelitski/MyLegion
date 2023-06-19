@@ -1,9 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".SettingsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_main" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/padding"
+        android:gravity="center"
+        android:text="@string/title_setting"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_text_big" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:gravity="start"
+        android:textSize="@dimen/size_text_normal"
+        android:textColor="@color/black"
+        android:text="@string/text_setting"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/b_youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showButtonAction"
+            android:src="@mipmap/button_youtube_round" />
+
+        <ImageButton
+            android:id="@+id/b_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showButtonAction"
+            android:src="@mipmap/button_website_round" />
+
+        <ImageButton
+            android:id="@+id/b_recruiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showButtonAction"
+            android:src="@mipmap/logo_recrut_site_round" />
+
+        <ImageButton
+            android:id="@+id/b_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_marginBottom="@dimen/padding"
+            android:background="@drawable/custom_buttons_networks"
+            android:onClick="showButtonAction"
+            android:src="@mipmap/button_instagram_round" />
+    </LinearLayout>
+
+</LinearLayout>

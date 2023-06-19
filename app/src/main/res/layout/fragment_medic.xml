@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fon_preparation"
+    android:background="@drawable/fon_medic"
     android:orientation="vertical"
     tools:context=".candidate.MedicFragment">
 
@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/header_preparation" />
+                android:src="@drawable/header_medic" />
 
 
 
