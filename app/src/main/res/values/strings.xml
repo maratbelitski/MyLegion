@@ -6,6 +6,10 @@
 
 
     <string name="app_name" translatable="false">MyLegion</string>
+    <string name="button_menu_share" translatable="false">Share</string>
+    <string name="button_menu_info" translatable="false">Info</string>
+    <string name="button_menu_back" translatable="false">Back</string>
+
     <string name="b_list_choice_0" translatable="false">\  1 RE</string>
     <string name="b_list_choice_1" translatable="false">\  1 REC</string>
     <string name="b_list_choice_2" translatable="false">\  1 REG</string>

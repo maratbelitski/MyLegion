@@ -3,6 +3,8 @@ package com.example.frenchforeignlegion;
 import static android.content.Intent.ACTION_VIEW;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.ShareActionProvider;
+import androidx.core.view.MenuItemCompat;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,6 +12,8 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Bundle;
 import android.renderscript.Sampler;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
@@ -129,60 +133,9 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-//
-//        b_youtube.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-//                    b_youtube.startAnimation(scaleUp);
-//                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-//                    b_youtube.startAnimation(scaleDown);
-//                }
-//                return false;
-//            }
-//        });
-//
-//        b_website.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-//                    b_website.startAnimation(scaleUp);
-//                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-//                    b_website.startAnimation(scaleDown);
-//                }
-//                return false;
-//            }
-//        });
-//
-//        b_instagram.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View v, MotionEvent event) {
-//                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-//                    b_instagram.startAnimation(scaleUp);
-//                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-//                    b_instagram.startAnimation(scaleDown);
-//                }
-//                return false;
-//            }
-//        });
+
+
     }
-
-
-    //открываем сайт и соцсети
-//    public void showWebsite(View view) {
-//        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://www.legion-etrangere.com/"));
-//        startActivity(intent);
-//    }
-//
-//    public void showInstagram(View view) {
-//        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://www.instagram.com/legionetrangereofficiel/"));
-//        startActivity(intent);
-//    }
-//
-//    public void showYouTube(View view) {
-//        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://www.youtube.com/user/LegionEtrangereCOMLE"));
-//        startActivity(intent);
-//    }
 
     /**
      * метод для смены языка
