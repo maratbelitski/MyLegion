@@ -6,9 +6,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import com.example.frenchforeignlegion.R;
-
 public class RegimentsDetailsActivity extends AppCompatActivity {
-
     public static final String EXTRA_REGIMENT = "ID";
 
     @Override
@@ -36,5 +34,8 @@ public class RegimentsDetailsActivity extends AppCompatActivity {
 
         ImageView logo = findViewById(R.id.regiment_logo);
         logo.setImageResource(regimentNew.getImageID());
+
+        ImageView header = findViewById(R.id.regiment_header);
+        header.setImageResource(regimentNew.getImageHeader());
     }
 }

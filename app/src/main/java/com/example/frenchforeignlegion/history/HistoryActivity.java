@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.frenchforeignlegion.MainActivity;
 import com.example.frenchforeignlegion.R;
@@ -44,7 +45,7 @@ public class HistoryActivity extends AppCompatActivity {
         else if (item.getItemId()==R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
-            String shareBody = "Узнайте больше о Французском иностранном легионе!";
+            String shareBody = "Узнайте больше о Французском иностранном легионе!\nhttps://yandex.by/video/preview/10866085358551954355" ;
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
