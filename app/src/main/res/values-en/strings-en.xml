@@ -4,6 +4,16 @@
     <!--    <i>наклонный шрифт</i>-->
     <!--    <u>подчеркнутый шрифт</u>-->
 
+    <string name="link_text">Learn more about the French foreign legion!\n\n
+https://yandex.by/video/preview/10866085358551954355</string>
+    <string name="toast_setting">You are here</string>
+
+
+    <string name="menu_back">Back</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_share">Share</string>
+
+
     <string name="title_setting">INFORMATION</string>
     <string name="text_setting">The application <b>MyLegion</b> is an informational project
 and is dedicated to the topic of the French Foreign Legion.\n

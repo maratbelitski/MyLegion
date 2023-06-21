@@ -1,19 +1,9 @@
 package com.example.frenchforeignlegion;
 
-import static android.content.Intent.ACTION_VIEW;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.ShareActionProvider;
-import androidx.core.view.MenuItemCompat;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.net.Uri;
 import android.os.Bundle;
-import android.renderscript.Sampler;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
@@ -21,17 +11,14 @@ import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.Spinner;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.frenchforeignlegion.candidate.CandidateActivity;
 import com.example.frenchforeignlegion.history.HistoryActivity;
-import com.example.frenchforeignlegion.today.Regiments;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
-import com.example.frenchforeignlegion.today.RegimentsDetailsActivity;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
@@ -46,15 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
         //создаем обьект кнопки
         Spinner spinner = findViewById(R.id.s_spinner);
-
         Button b_settings = findViewById(R.id.b_settings);
         Button b_history = findViewById(R.id.b_history);
         Button b_regiment_today = findViewById(R.id.b_regiment_today);
         Button b_candidate = findViewById(R.id.b_candidate);
 
-//        ImageButton b_youtube = findViewById(R.id.b_youtube);
-//        ImageButton b_website = findViewById(R.id.b_website);
-//        ImageButton b_instagram = findViewById(R.id.b_instagram);
 
         //создаем обьект анимации для кнопок
         Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);

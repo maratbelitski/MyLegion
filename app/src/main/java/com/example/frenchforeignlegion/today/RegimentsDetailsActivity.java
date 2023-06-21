@@ -1,12 +1,47 @@
 package com.example.frenchforeignlegion.today;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
-import androidx.appcompat.app.ActionBar;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
 import com.example.frenchforeignlegion.R;
+import com.example.frenchforeignlegion.SettingsActivity;
+
 public class RegimentsDetailsActivity extends AppCompatActivity {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId()==R.id.action_back){
+            Intent intent=new Intent(this, RegimentsActivity.class);
+            startActivity(intent);
+        } else if (item.getItemId()==R.id.action_info) {
+            Intent intent=new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+        }
+        else if (item.getItemId()==R.id.action_share) {
+            Intent myIntent = new Intent(Intent.ACTION_SEND);
+            myIntent.setType("text/plain");
+            String shareBody = String.valueOf(R.string.link_text);
+            String shareSub = "Your subject";
+            myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
+            myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(myIntent, "Share using"));
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     public static final String EXTRA_REGIMENT = "ID";
 
     @Override
@@ -17,10 +52,6 @@ public class RegimentsDetailsActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_legion_regiments);
-
-        ActionBar actionBar = getSupportActionBar();
-        assert actionBar != null;
-        actionBar.setDisplayHomeAsUpEnabled(true);
 
         //ссылки на необходимые элементы для макета выводятся сразу с активностью
         int regimentId = (int) getIntent().getExtras().get(EXTRA_REGIMENT);

@@ -9,14 +9,14 @@
         android:id="@+id/action_back"
         android:icon="@drawable/menu_back_arrow"
         android:orderInCategory="1"
-        android:title="@string/button_menu_back"
+        android:title="@string/menu_back"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_info"
         android:icon="@android:drawable/ic_dialog_info"
         android:orderInCategory="2"
-        android:title="@string/button_menu_info"
+        android:title="@string/menu_info"
         app:showAsAction="never" />
 
 
@@ -24,7 +24,7 @@
         android:id="@+id/action_share"
         android:icon="@drawable/menu_share"
         android:orderInCategory="3"
-        android:title="@string/button_menu_share"
+        android:title="@string/menu_share"
         app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"
         app:showAsAction="never" />
 

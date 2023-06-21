@@ -1,26 +1,46 @@
 package com.example.frenchforeignlegion.today;
 
-import static com.example.frenchforeignlegion.R.layout.layout_list;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
-import androidx.appcompat.app.ActionBar;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.ListView;
-
+import com.example.frenchforeignlegion.MainActivity;
 import com.example.frenchforeignlegion.R;
-
-import java.util.Arrays;
-import java.util.List;
+import com.example.frenchforeignlegion.SettingsActivity;
 
 public class RegimentsActivity extends AppCompatActivity {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId()==R.id.action_back){
+            Intent intent=new Intent(this, MainActivity.class);
+            startActivity(intent);
+        } else if (item.getItemId()==R.id.action_info) {
+            Intent intent=new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+        }
+        else if (item.getItemId()==R.id.action_share) {
+            Intent myIntent = new Intent(Intent.ACTION_SEND);
+            myIntent.setType("text/plain");
+            String shareBody = String.valueOf(R.string.link_text);
+            String shareSub = "Your subject";
+            myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
+            myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(myIntent, "Share using"));
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,10 +52,6 @@ public class RegimentsActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_legion_today);
 
-        //кнопка назад в тулл баре
-        ActionBar actionBar = getSupportActionBar();
-        assert actionBar != null;
-        actionBar.setDisplayHomeAsUpEnabled(true);
         //выводит список обьектов по именам из класса Regiments
         //можно использовать array strings для хранения списка названий и вставлять напрямую в макет
         //А можно забирать названия из массива, здесь список добавлен напрямую в макет.

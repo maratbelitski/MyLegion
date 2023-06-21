@@ -2,16 +2,10 @@ package com.example.frenchforeignlegion;
 
 import static android.content.Intent.ACTION_VIEW;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -19,9 +13,11 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class SettingsActivity extends AppCompatActivity {
     @Override
@@ -37,12 +33,13 @@ public class SettingsActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         } else if (item.getItemId() == R.id.action_info) {
-            Toast toast = Toast.makeText(this, "Вы уже здесь", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
+            toast.setText(R.string.toast_setting);
             toast.show();
         } else if (item.getItemId() == R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
-            String shareBody = "Узнайте больше о Французском иностранном легионе!\nhttps://yandex.by/video/preview/10866085358551954355";
+            String shareBody = String.valueOf(R.string.link_text);
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);

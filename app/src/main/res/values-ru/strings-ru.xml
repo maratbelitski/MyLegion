@@ -4,6 +4,16 @@
     <!--    <i>наклонный шрифт</i>-->
     <!--    <u>подчеркнутый шрифт</u>-->
 
+    <string name="link_text">Узнайте больше о Французском иностранном легионе!\n\n
+https://yandex.by/video/preview/10866085358551954355</string>
+    <string name="toast_setting">Вы уже здесь</string>
+
+
+    <string name="menu_back">Назад</string>
+    <string name="menu_info">Инфо</string>
+    <string name="menu_share">Поделиться</string>
+
+
     <string name="title_setting">ИНФОРМАЦИЯ</string>
     <string name="text_setting">Приложение <b>MyLegion</b>  является информационно - ознакомительным проектом
 и посвящен теме Французского иностранного легиона.\n
