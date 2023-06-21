@@ -55,7 +55,8 @@
                     android:background="@drawable/custom_buttons_main"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="MissingConstraints" />
+                    tools:ignore="MissingConstraints"
+                    android:popupBackground="@color/black"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView

@@ -39,7 +39,8 @@ public class CandidateActivity extends AppCompatActivity {
         else if (item.getItemId()==R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
-            String shareBody = String.valueOf(R.string.link_text);
+            String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
+            "\n\nhttps://yandex.by/video/preview/10866085358551954355";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);

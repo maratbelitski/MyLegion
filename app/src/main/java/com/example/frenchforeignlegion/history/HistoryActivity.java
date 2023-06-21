@@ -3,6 +3,7 @@ package com.example.frenchforeignlegion.history;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -18,6 +19,8 @@ import androidx.appcompat.widget.Toolbar;
 import com.example.frenchforeignlegion.MainActivity;
 import com.example.frenchforeignlegion.R;
 import com.example.frenchforeignlegion.SettingsActivity;
+
+import java.util.Objects;
 
 public class HistoryActivity extends AppCompatActivity {
     @Override
@@ -38,7 +41,8 @@ public class HistoryActivity extends AppCompatActivity {
         else if (item.getItemId()==R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
-            String shareBody = String.valueOf(R.string.link_text);
+            String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
+            "\n\nhttps://yandex.by/video/preview/10866085358551954355";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
@@ -57,6 +61,7 @@ public class HistoryActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_history);
+        toolbar.setSubtitle(R.string.toolbar_military_campaigns);
 
         Button b_history_creation=findViewById(R.id.b_history_creation);
         Button b_war=findViewById(R.id.b_war);

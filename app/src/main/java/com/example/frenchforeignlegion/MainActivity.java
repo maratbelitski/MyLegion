@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,15 +50,21 @@ public class MainActivity extends AppCompatActivity {
         spinner.setAdapter(mAdapter);
 
         //элемент спиннера меняет язык
+        //добовляем тост с уведомлением о смене языка
+        Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
+
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = spinner.getSelectedItem().toString();
                 if (selectedItem.equalsIgnoreCase("анг")) {
                     changeLanguage("en");
-
+                    toast.setText(R.string.toast_spinner);
+                    toast.show();
                 } else if (selectedItem.equalsIgnoreCase("rus")) {
                     changeLanguage("ru");
+                    toast.setText(R.string.toast_spinner);
+                    toast.show();
                 }
             }
 
@@ -67,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //обрабатываем щелчек для анимации
+
+
         b_settings.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
