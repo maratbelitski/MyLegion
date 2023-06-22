@@ -1,5 +1,4 @@
 package com.example.frenchforeignlegion;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -13,20 +12,17 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.frenchforeignlegion.candidate.CandidateActivity;
 import com.example.frenchforeignlegion.history.HistoryActivity;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    @SuppressLint("ClickableViewAccessibility")
+    @SuppressLint({"ClickableViewAccessibility", "ResourceAsColor", "ResourceType", "CutPasteId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,21 +35,20 @@ public class MainActivity extends AppCompatActivity {
         Button b_regiment_today = findViewById(R.id.b_regiment_today);
         Button b_candidate = findViewById(R.id.b_candidate);
 
-
-        //создаем обьект анимации для кнопок
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
-
+        showAnimation(b_history);
+        showAnimation(b_regiment_today);
+        showAnimation(b_candidate);
+        showAnimation(b_settings);
 
         List<String> languages = Arrays.asList(getResources().getStringArray(R.array.languages));
         ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_spinner, R.id.spinner_text, languages);
         spinner.setAdapter(mAdapter);
 
-        //элемент спиннера меняет язык
+
         //добовляем тост с уведомлением о смене языка
         Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @SuppressLint("UseCompatLoadingForDrawables")
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = spinner.getSelectedItem().toString();
@@ -67,70 +62,14 @@ public class MainActivity extends AppCompatActivity {
                     toast.show();
                 }
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-
-        //обрабатываем щелчек для анимации
-
-
-        b_settings.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_settings.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_settings.startAnimation(scaleDown);
-                }
-                //если будет true onClick не сработает
-                return false;
-            }
-        });
-
-        b_history.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_history.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_history.startAnimation(scaleDown);
-                }
-                //если будет true onClick не сработает
-                return false;
-            }
-        });
-
-        b_regiment_today.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_regiment_today.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_regiment_today.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-        b_candidate.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_candidate.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_candidate.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-
     }
 
     /**
-     * метод для смены языка
+     * change language
      */
     public void changeLanguage(String lang) {
         Locale locale = new Locale(lang);
@@ -143,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
         recreate();
     }
 
+    /**
+    * action for buttons
+    */
     public void showButtonAction(View view) {
         Class destinations = null;
         int temp = view.getId();
@@ -158,4 +100,26 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, destinations);
         startActivity(intent);
     }
+
+    /**
+     * animation for buttons
+     */
+    @SuppressLint("ClickableViewAccessibility")
+    public void showAnimation(Button button){
+        //создаем обьект анимации для кнопок
+        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
+        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
+        button.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    button.startAnimation(scaleUp);
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    button.startAnimation(scaleDown);
+                }
+                return false;
+            }
+        });
+    }
 }
+

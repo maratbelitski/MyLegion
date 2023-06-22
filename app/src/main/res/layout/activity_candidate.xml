@@ -28,6 +28,7 @@
         android:text="@string/button_officially"
         android:textColor="@color/white"
         android:textSize="@dimen/size_text_button" />
+
     <Button
         android:id="@+id/b_preparation"
         android:layout_width="match_parent"
@@ -52,5 +53,4 @@
         android:textColor="@color/white"
         android:textSize="@dimen/size_text_button" />
     </LinearLayout>
-
 </FrameLayout>

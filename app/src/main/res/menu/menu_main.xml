@@ -9,7 +9,8 @@
         android:icon="@drawable/menu_back_arrow"
         android:orderInCategory="1"
         android:title="@string/menu_back"
-        app:showAsAction="never" />
+        app:showAsAction="never"
+        />
 
     <item
         android:id="@+id/action_info"

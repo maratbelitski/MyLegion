@@ -1,10 +1,8 @@
 package com.example.frenchforeignlegion.candidate;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,7 +10,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
-
 import com.example.frenchforeignlegion.R;
 import com.example.frenchforeignlegion.SettingsActivity;
 import com.google.android.material.tabs.TabLayout;
@@ -82,7 +79,7 @@ public class OfficiallyActivity extends AppCompatActivity implements TabLayoutMe
         }
     }
 
-// шаг 2 вспомогательный класс для внесения фрагментов
+    // шаг 2 вспомогательный класс для внесения фрагментов
     public  static class SelectionsPagerAdapter extends FragmentStateAdapter{
 
         public SelectionsPagerAdapter(@NonNull FragmentActivity fragmentActivity) {

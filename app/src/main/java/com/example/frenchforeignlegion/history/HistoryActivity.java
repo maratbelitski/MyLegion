@@ -1,9 +1,7 @@
 package com.example.frenchforeignlegion.history;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -11,16 +9,12 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import com.example.frenchforeignlegion.MainActivity;
 import com.example.frenchforeignlegion.R;
 import com.example.frenchforeignlegion.SettingsActivity;
-
-import java.util.Objects;
 
 public class HistoryActivity extends AppCompatActivity {
     @Override
@@ -51,7 +45,6 @@ public class HistoryActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
     @SuppressLint({"ClickableViewAccessibility", "ResourceType"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,64 +54,45 @@ public class HistoryActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_history);
-        toolbar.setSubtitle(R.string.toolbar_military_campaigns);
 
         Button b_history_creation=findViewById(R.id.b_history_creation);
         Button b_war=findViewById(R.id.b_war);
         Button b_tradition=findViewById(R.id.b_tradition);
 
-        Animation scaleUp = AnimationUtils.loadAnimation(this,R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this,R.anim.scale_down);
+        showAnimation(b_history_creation);
+        showAnimation(b_war);
+        showAnimation(b_tradition);
+    }
 
-        b_history_creation.setOnTouchListener(new View.OnTouchListener() {
+    public void showButtonAction(View view) {
+        Class destinations = null;
+        int temp = view.getId();
+        if (temp == R.id.b_history_creation) {
+            destinations = HistoryCreateActivity.class;
+        } else if (temp == R.id.b_war) {
+            destinations = WarActivity.class;
+        } else if (temp == R.id.b_tradition) {
+            destinations = TraditionActivity.class;
+        }
+        Intent intent = new Intent(this, destinations);
+        startActivity(intent);
+    }
+
+    @SuppressLint("ClickableViewAccessibility")
+    public void showAnimation(Button button){
+        //создаем обьект анимации для кнопок
+        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
+        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
+        button.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction()==MotionEvent.ACTION_DOWN){
-                    b_history_creation.startAnimation(scaleUp);
-                } else if (event.getAction()==MotionEvent.ACTION_UP) {
-                   b_history_creation.startAnimation(scaleDown);
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    button.startAnimation(scaleUp);
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    button.startAnimation(scaleDown);
                 }
                 return false;
             }
         });
-
-        b_war.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction()==MotionEvent.ACTION_DOWN){
-                   b_war.startAnimation(scaleUp);
-                } else if (event.getAction()==MotionEvent.ACTION_UP) {
-                    b_war.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-        b_tradition.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction()==MotionEvent.ACTION_DOWN){
-                    b_tradition.startAnimation(scaleUp);
-                } else if (event.getAction()==MotionEvent.ACTION_UP) {
-                   b_tradition.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-    }
-
-    public void showHistoryCreations(View view) {
-        Intent intent = new Intent(HistoryActivity.this, HistoryCreateActivity.class);
-        startActivity(intent);
-    }
-
-    public void showWar(View view) {
-        Intent intent = new Intent(HistoryActivity.this, WarActivity.class);
-        startActivity(intent);
-    }
-
-    public void showTradition(View view) {
-        Intent intent = new Intent(HistoryActivity.this, TraditionActivity.class);
-        startActivity(intent);
     }
 }

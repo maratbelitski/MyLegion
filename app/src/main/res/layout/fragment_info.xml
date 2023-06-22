@@ -64,7 +64,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-
                 android:text="@string/button_videos_preparations7"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -77,7 +76,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-
                 android:text="@string/button_videos_preparations8"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -90,7 +88,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-
                 android:text="@string/button_videos_preparations9"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -103,11 +100,9 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-
                 android:text="@string/button_videos_preparations10"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
-
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

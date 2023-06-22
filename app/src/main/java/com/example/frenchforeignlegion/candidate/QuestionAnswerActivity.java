@@ -1,14 +1,11 @@
 package com.example.frenchforeignlegion.candidate;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
 import com.example.frenchforeignlegion.R;
 import com.example.frenchforeignlegion.SettingsActivity;
 
@@ -48,6 +45,5 @@ public class QuestionAnswerActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_question_answer);
-
     }
 }

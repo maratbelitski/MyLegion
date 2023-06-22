@@ -1,7 +1,5 @@
 package com.example.frenchforeignlegion;
-
 import static android.content.Intent.ACTION_VIEW;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
@@ -14,7 +12,6 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -64,58 +61,11 @@ public class SettingsActivity extends AppCompatActivity {
         ImageButton b_instagram = findViewById(R.id.b_instagram);
         ImageButton b_recruiting = findViewById(R.id.b_recruiting);
 
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
-
-        b_youtube.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_youtube.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_youtube.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-        b_website.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_website.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_website.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-        b_instagram.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_instagram.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_instagram.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
-
-        b_recruiting.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    b_recruiting.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    b_recruiting.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
+        showAnimation(b_youtube);
+        showAnimation(b_website);
+        showAnimation(b_instagram);
+        showAnimation(b_recruiting);
     }
-
 
     public void showButtonAction(View view) {
         String link = "";
@@ -132,5 +82,22 @@ public class SettingsActivity extends AppCompatActivity {
         }
         Intent intent = new Intent(ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
+    }
+    @SuppressLint("ClickableViewAccessibility")
+    public void showAnimation(ImageButton button){
+        //создаем обьект анимации для кнопок
+        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
+        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
+        button.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    button.startAnimation(scaleUp);
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    button.startAnimation(scaleDown);
+                }
+                return false;
+            }
+        });
     }
 }

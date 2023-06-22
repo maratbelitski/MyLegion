@@ -1,18 +1,13 @@
 package com.example.frenchforeignlegion.candidate;
-
 import static android.content.Intent.ACTION_VIEW;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-
 import com.example.frenchforeignlegion.R;
 
 public class PossibilityFragment extends Fragment implements View.OnClickListener{
@@ -20,12 +15,9 @@ public class PossibilityFragment extends Fragment implements View.OnClickListene
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_possibility, container, false);
-
         Button b_centers = view.findViewById(R.id.b_possibility);
         b_centers.setOnClickListener(this);
-
         return view;
     }
 

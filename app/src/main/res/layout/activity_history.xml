@@ -22,18 +22,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/custom_buttons_history"
-            android:onClick="showHistoryCreations"
+            android:onClick="showButtonAction"
             android:padding="@dimen/padding"
             android:text="@string/button_history_creation"
             android:textColor="@color/white"
             android:textSize="@dimen/size_text_button" />
+
         <Button
             android:id="@+id/b_war"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/custom_buttons_history"
-            android:onClick="showWar"
+            android:onClick="showButtonAction"
             android:padding="@dimen/padding"
             android:text="@string/button_war"
             android:textColor="@color/white"
@@ -45,12 +46,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@drawable/custom_buttons_history"
-            android:onClick="showTradition"
+            android:onClick="showButtonAction"
             android:padding="@dimen/padding"
             android:text="@string/button_tradition"
             android:textColor="@color/white"
             android:textSize="@dimen/size_text_button" />
-
-
     </LinearLayout>
 </FrameLayout>

@@ -20,21 +20,21 @@ public class RegimentsActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        if(item.getItemId()==R.id.action_back){
-            Intent intent=new Intent(this, MainActivity.class);
+        if (item.getItemId() == R.id.action_back) {
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
-        } else if (item.getItemId()==R.id.action_info) {
-            Intent intent=new Intent(this, SettingsActivity.class);
+        } else if (item.getItemId() == R.id.action_info) {
+            Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
-        }
-        else if (item.getItemId()==R.id.action_share) {
+        } else if (item.getItemId() == R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
             String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
-            "\n\nhttps://yandex.by/video/preview/10866085358551954355";
+                    "\n\nhttps://yandex.by/video/preview/10866085358551954355";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);

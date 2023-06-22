@@ -23,8 +23,6 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/header_preparation" />
 
-
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,7 +40,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="showLink"
                 android:text="@string/button_videos_conditions3"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -55,7 +52,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="showLink"
                 android:text="@string/button_videos_conditions2"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
@@ -68,7 +64,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="showLink"
                 android:text="@string/button_videos_preparations3"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />

@@ -21,7 +21,6 @@ public class ConditionsFragment extends Fragment implements View.OnClickListener
         b_conditions.setOnClickListener(this);
         b_conditions2.setOnClickListener(this);
         b_conditions3.setOnClickListener(this);
-
         return view;
     }
 

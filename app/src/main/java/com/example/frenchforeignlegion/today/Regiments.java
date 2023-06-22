@@ -34,7 +34,6 @@ public class Regiments {
         return imageHeader;
     }
 
-
     @NonNull
     @Override
     public String toString() {

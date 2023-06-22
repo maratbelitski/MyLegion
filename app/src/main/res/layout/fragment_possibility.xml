@@ -41,7 +41,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website_round"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
                 android:text="@string/button_videos_legion"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />

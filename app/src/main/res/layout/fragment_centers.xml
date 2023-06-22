@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".candidate.CentersFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +57,6 @@
                 android:background="@drawable/custom_buttons_main"
                 android:drawableStart="@mipmap/button_website"
                 android:gravity="start|center_vertical"
-                android:onClick="onClick"
                 android:text="@string/button_videos_engagement"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
