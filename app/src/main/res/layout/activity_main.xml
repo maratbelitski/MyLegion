@@ -48,11 +48,12 @@
 
                 <Spinner
                     android:id="@+id/s_spinner"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
                     android:layout_gravity="center|end"
                     android:layout_margin="@dimen/padding"
                     android:layout_marginTop="@dimen/padding"
+                    android:paddingTop="5dp"
                     android:background="@drawable/custom_buttons_main"
                     android:popupBackground="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"

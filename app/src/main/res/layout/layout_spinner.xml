@@ -11,15 +11,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:gravity="center|start"
+            android:gravity="center"
             android:textColor="@color/white"
             android:textSize="15sp" />
-
-        <ImageView
-            android:id="@+id/spinner_logo"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_margin="5dp"
-            android:gravity="center"
-            android:src="@drawable/ic_usa" />
 </LinearLayout>

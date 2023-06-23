@@ -1,5 +1,6 @@
 package com.example.frenchforeignlegion;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +23,6 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
-
     @SuppressLint({"ClickableViewAccessibility", "ResourceAsColor", "ResourceType", "CutPasteId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,16 +53,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = spinner.getSelectedItem().toString();
+
                 if (selectedItem.equalsIgnoreCase("анг")) {
                     changeLanguage("en");
                     toast.setText(R.string.toast_spinner);
                     toast.show();
+
                 } else if (selectedItem.equalsIgnoreCase("rus")) {
                     changeLanguage("ru");
                     toast.setText(R.string.toast_spinner);
                     toast.show();
                 }
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
@@ -83,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-    * action for buttons
-    */
+     * action for buttons
+     */
     public void showButtonAction(View view) {
         Class destinations = null;
         int temp = view.getId();
@@ -105,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
      * animation for buttons
      */
     @SuppressLint("ClickableViewAccessibility")
-    public void showAnimation(Button button){
+    public void showAnimation(Button button) {
         //создаем обьект анимации для кнопок
         Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
         Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
