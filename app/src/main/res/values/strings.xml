@@ -6,6 +6,7 @@
 
 
     <string name="app_name" translatable="false">MyLegion</string>
+    <string name="contentDescription" translatable="false">image French Foreign Legion</string>
     <string name="b_list_choice_0" translatable="false">\  1 RE</string>
     <string name="b_list_choice_1" translatable="false">\  1 REC</string>
     <string name="b_list_choice_2" translatable="false">\  1 REG</string>

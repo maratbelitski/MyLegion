@@ -21,7 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/header_medic" />
+                android:src="@drawable/header_medic"
+                android:contentDescription="@string/contentDescription"/>
 
             <TextView
                 android:layout_width="wrap_content"

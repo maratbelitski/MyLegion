@@ -25,7 +25,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/head_leg_today"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/contentDescription"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +50,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/legion_today_regiments"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/contentDescription"/>
 
             <Button
                 android:id="@+id/b_list_choice_0"

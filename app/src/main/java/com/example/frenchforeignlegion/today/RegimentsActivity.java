@@ -52,28 +52,6 @@ public class RegimentsActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         setTitle(R.string.toolbar_legion_today);
-
-        //выводит список обьектов по именам из класса Regiments
-        //можно использовать array strings для хранения списка названий и вставлять напрямую в макет
-        //А можно забирать названия из массива, здесь список добавлен напрямую в макет.
-
-        //создаем список из значений в строковом ресурсе и применяем свой адаптер и макет
-//        List<String> regiments = Arrays.asList(getResources().getStringArray(R.array.names_regiments));
-//
-//        ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_list, R.id.list_text, regiments);
-//        ListView listView = findViewById(R.id.list_regiments);
-//        listView.setAdapter(mAdapter);
-
-        //открываем нажатием другую активность
-//        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
-//                Intent intent = new Intent(RegimentsActivity.this, RegimentsDetailsActivity.class);
-//                intent.putExtra(RegimentsDetailsActivity.EXTRA_REGIMENT, (int) id);
-//                startActivity(intent);
-//            }
-//        };
-//        listView.setOnItemClickListener(itemClickListener);
     }
 
     public void showRegimentDetails(View view) {

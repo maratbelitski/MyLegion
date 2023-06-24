@@ -48,7 +48,8 @@
             android:layout_marginBottom="@dimen/padding"
             android:background="@drawable/custom_buttons_website"
             android:onClick="showButtonAction"
-            android:src="@mipmap/button_youtube_round" />
+            android:src="@mipmap/button_youtube_round"
+            android:contentDescription="@string/contentDescription"/>
 
         <ImageButton
             android:id="@+id/b_website"
@@ -61,7 +62,8 @@
             android:layout_marginBottom="@dimen/padding"
             android:background="@drawable/custom_buttons_website"
             android:onClick="showButtonAction"
-            android:src="@mipmap/button_website_round" />
+            android:src="@mipmap/button_website_round"
+            android:contentDescription="@string/contentDescription"/>
 
         <ImageButton
             android:id="@+id/b_recruiting"
@@ -72,7 +74,8 @@
             android:layout_marginBottom="@dimen/padding"
             android:background="@drawable/custom_buttons_website"
             android:onClick="showButtonAction"
-            android:src="@mipmap/logo_recrut_site_round" />
+            android:src="@mipmap/logo_recrut_site_round"
+            android:contentDescription="@string/contentDescription"/>
 
         <ImageButton
             android:id="@+id/b_instagram"
@@ -84,6 +87,7 @@
             android:layout_marginBottom="@dimen/padding"
             android:background="@drawable/custom_buttons_website"
             android:onClick="showButtonAction"
-            android:src="@mipmap/button_instagram_round" />
+            android:src="@mipmap/button_instagram_round"
+            android:contentDescription="@string/contentDescription"/>
     </LinearLayout>
 </LinearLayout>

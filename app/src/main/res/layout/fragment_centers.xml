@@ -21,7 +21,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/header_centers"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/contentDescription"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -37,7 +38,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:src="@drawable/image_centers"
-                android:scaleType="centerCrop"/>
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/contentDescription"/>
 
             <TextView
                 android:layout_width="match_parent"

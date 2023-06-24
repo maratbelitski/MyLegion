@@ -26,7 +26,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/header_traditions" />
+                android:src="@drawable/header_traditions"
+                android:contentDescription="@string/contentDescription"/>
 
             <ImageView
                 android:id="@+id/regiment_logo"
@@ -34,7 +35,8 @@
                 android:layout_height="155dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/logo_leg" />
+                android:src="@drawable/logo_leg"
+                android:contentDescription="he"/>
 
             <TextView
                 android:id="@+id/regiment_title"

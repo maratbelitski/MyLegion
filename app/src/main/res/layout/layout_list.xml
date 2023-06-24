@@ -9,7 +9,8 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="10dp"
-        android:src="@drawable/logo_leg" />
+        android:src="@drawable/logo_leg"
+        android:contentDescription="@string/contentDescription"/>
 
     <TextView
         android:id="@+id/list_text"
