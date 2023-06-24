@@ -5,7 +5,7 @@
     android:layout_height="50dp"
     android:padding="5dp"
     android:gravity="top"
-    app:logo="@mipmap/ic_launcher_round"
+    app:logo="@mipmap/logo_leg_green_round"
     android:background="@color/colorAccent"
     android:theme="@style/NoActionBar"
     app:titleTextColor="@color/white"
