@@ -32,7 +32,7 @@ public class HistoryCreateActivity extends AppCompatActivity {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
             String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
-            "\n\nhttps://yandex.by/video/preview/10866085358551954355";
+            "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
