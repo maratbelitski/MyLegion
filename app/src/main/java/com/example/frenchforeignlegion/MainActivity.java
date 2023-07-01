@@ -1,17 +1,12 @@
 package com.example.frenchforeignlegion;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements ButtonsAnimation{
     @SuppressLint({"ClickableViewAccessibility", "ResourceAsColor", "ResourceType", "CutPasteId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
         Button b_regiment_today = findViewById(R.id.b_regiment_today);
         Button b_candidate = findViewById(R.id.b_candidate);
 
-        showAnimation(b_history);
-        showAnimation(b_regiment_today);
-        showAnimation(b_candidate);
-        showAnimation(b_settings);
+        showAnimationButton(b_history);
+        showAnimationButton(b_regiment_today);
+        showAnimationButton(b_candidate);
+        showAnimationButton(b_settings);
 
         List<String> languages = Arrays.asList(getResources().getStringArray(R.array.languages));
         ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_spinner, R.id.spinner_text, languages);
@@ -103,27 +98,6 @@ public class MainActivity extends AppCompatActivity {
         }
         Intent intent = new Intent(this, destinations);
         startActivity(intent);
-    }
-
-    /**
-     * animation for buttons
-     */
-    @SuppressLint("ClickableViewAccessibility")
-    public void showAnimation(Button button) {
-        //создаем обьект анимации для кнопок
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    button.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    button.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
     }
 }
 

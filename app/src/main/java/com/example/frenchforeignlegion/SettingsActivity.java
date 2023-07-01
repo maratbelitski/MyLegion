@@ -6,17 +6,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-public class SettingsActivity extends AppCompatActivity {
+public class SettingsActivity extends AppCompatActivity implements ButtonsAnimation {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -37,7 +35,7 @@ public class SettingsActivity extends AppCompatActivity {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
             String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
-            "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
+                    "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
@@ -60,11 +58,13 @@ public class SettingsActivity extends AppCompatActivity {
         ImageButton b_website = findViewById(R.id.b_website);
         ImageButton b_instagram = findViewById(R.id.b_instagram);
         ImageButton b_recruiting = findViewById(R.id.b_recruiting);
+        Button b_rate_app = findViewById(R.id.b_rate_app);
 
-        showAnimation(b_youtube);
-        showAnimation(b_website);
-        showAnimation(b_instagram);
-        showAnimation(b_recruiting);
+        showAnimationImageButton(b_youtube);
+        showAnimationImageButton(b_website);
+        showAnimationImageButton(b_instagram);
+        showAnimationImageButton(b_recruiting);
+        showAnimationButton(b_rate_app);
     }
 
     public void showButtonAction(View view) {
@@ -79,25 +79,10 @@ public class SettingsActivity extends AppCompatActivity {
             link = "https://www.instagram.com/legionetrangereofficiel/";
         } else if (temp == R.id.b_recruiting) {
             link = "https://www.legion-recrute.com/fr";
+        }else if (temp == R.id.b_rate_app) {
+            link = "https://play.google.com/store/apps/details?id=com.frenchforeignlegion";
         }
         Intent intent = new Intent(ACTION_VIEW, Uri.parse(link));
         startActivity(intent);
-    }
-    @SuppressLint("ClickableViewAccessibility")
-    public void showAnimation(ImageButton button){
-        //создаем обьект анимации для кнопок
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    button.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    button.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
     }
 }
