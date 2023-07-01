@@ -18,21 +18,21 @@ public class HistoryCreateActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        if(item.getItemId()==R.id.action_back){
-            Intent intent=new Intent(this, HistoryActivity.class);
+        if (item.getItemId() == R.id.action_back) {
+            Intent intent = new Intent(this, HistoryActivity.class);
             startActivity(intent);
-        } else if (item.getItemId()==R.id.action_info) {
-            Intent intent=new Intent(this, SettingsActivity.class);
+        } else if (item.getItemId() == R.id.action_info) {
+            Intent intent = new Intent(this, SettingsActivity.class);
             startActivity(intent);
-        }
-        else if (item.getItemId()==R.id.action_share) {
+        } else if (item.getItemId() == R.id.action_share) {
             Intent myIntent = new Intent(Intent.ACTION_SEND);
             myIntent.setType("text/plain");
             String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
-            "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
+                    "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
             String shareSub = "Your subject";
             myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
             myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);

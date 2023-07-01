@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation{
      */
     public void changeLanguage(String lang) {
         Locale locale = new Locale(lang);
-        Locale.setDefault(locale);
         Configuration config = new Configuration();
+        Locale.setDefault(locale);
         config.setLocale(locale);
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());

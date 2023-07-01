@@ -4,19 +4,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import com.example.frenchforeignlegion.ButtonsAnimation;
 import com.example.frenchforeignlegion.MainActivity;
 import com.example.frenchforeignlegion.R;
 import com.example.frenchforeignlegion.SettingsActivity;
 
-public class HistoryActivity extends AppCompatActivity {
+public class HistoryActivity extends AppCompatActivity implements ButtonsAnimation {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -59,9 +57,9 @@ public class HistoryActivity extends AppCompatActivity {
         Button b_war=findViewById(R.id.b_war);
         Button b_tradition=findViewById(R.id.b_tradition);
 
-        showAnimation(b_history_creation);
-        showAnimation(b_war);
-        showAnimation(b_tradition);
+       showAnimationButton(b_history_creation);
+       showAnimationButton(b_war);
+       showAnimationButton(b_tradition);
     }
 
     public void showButtonAction(View view) {
@@ -76,23 +74,5 @@ public class HistoryActivity extends AppCompatActivity {
         }
         Intent intent = new Intent(this, destinations);
         startActivity(intent);
-    }
-
-    @SuppressLint("ClickableViewAccessibility")
-    public void showAnimation(Button button){
-        //создаем обьект анимации для кнопок
-        Animation scaleUp = AnimationUtils.loadAnimation(this, R.anim.scale_up);
-        Animation scaleDown = AnimationUtils.loadAnimation(this, R.anim.scale_down);
-        button.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                if (event.getAction() == MotionEvent.ACTION_DOWN) {
-                    button.startAnimation(scaleUp);
-                } else if (event.getAction() == MotionEvent.ACTION_UP) {
-                    button.startAnimation(scaleDown);
-                }
-                return false;
-            }
-        });
     }
 }
