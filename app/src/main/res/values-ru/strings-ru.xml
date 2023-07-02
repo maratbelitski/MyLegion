@@ -44,14 +44,14 @@ email: belitski.dev@gmail.com</string>
     <string name="button_officially">официально</string>
     <string name="button_preparation">подготовка</string>
     <string name="button_question_answer">вопрос/ответ</string>
-    <string name="button_rate_app">оцени</string>
+    <string name="button_rate_app">оцените !</string>
 
 
     <string name="button_videos_engagement">\ видео: центр отбора </string>
     <string name="button_videos_legion">\ видео: легион</string>
     <string name="button_videos_conditions1">\ видео: поступление</string>
     <string name="button_videos_conditions2">\ видео: люк лежер</string>
-    <string name="button_videos_conditions3">\ видео: подтягивание</string>
+    <string name="button_videos_conditions3">\ видео: подтягивания</string>
     <string name="button_videos_preparations3">\ видео: люк лежер 2</string>
     <string name="button_videos_preparations4">\ видео: тесты легион</string>
     <string name="button_videos_preparations5">\ пример: тесты</string>

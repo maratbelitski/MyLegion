@@ -1,5 +1,4 @@
 package com.example.frenchforeignlegion.candidate;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,13 +9,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
+import com.example.frenchforeignlegion.MenuMethods;
 import com.example.frenchforeignlegion.R;
-import com.example.frenchforeignlegion.SettingsActivity;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 //шаг 1 имплементируем от TabLayoutMediator.TabConfigurationStrategy для табов
-public class OfficiallyActivity extends AppCompatActivity implements TabLayoutMediator.TabConfigurationStrategy {
+public class OfficiallyActivity extends AppCompatActivity implements TabLayoutMediator.TabConfigurationStrategy, MenuMethods {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_main, menu);
@@ -24,24 +23,8 @@ public class OfficiallyActivity extends AppCompatActivity implements TabLayoutMe
     }
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        showMenu(item,this, CandidateActivity.class);
 
-        if(item.getItemId()==R.id.action_back){
-            Intent intent=new Intent(this, CandidateActivity.class);
-            startActivity(intent);
-        } else if (item.getItemId()==R.id.action_info) {
-            Intent intent=new Intent(this, SettingsActivity.class);
-            startActivity(intent);
-        }
-        else if (item.getItemId()==R.id.action_share) {
-            Intent myIntent = new Intent(Intent.ACTION_SEND);
-            myIntent.setType("text/plain");
-            String shareBody = "Learn more about the French foreign legion!\n\n" + "MyLegion" +
-            "\n\nhttps://play.google.com/store/apps/details?id=com.frenchforeignlegion";
-            String shareSub = "Your subject";
-            myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
-            myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(myIntent, "Share using"));
-        }
         return super.onOptionsItemSelected(item);
     }
 
