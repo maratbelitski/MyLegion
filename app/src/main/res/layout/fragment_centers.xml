@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,61 +8,55 @@
     android:orientation="vertical"
     tools:context=".candidate.CentersFragment">
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_centers" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text_centers"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/header_centers"
-                android:scaleType="centerCrop"
-                android:contentDescription="@string/contentDescription"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_centers" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text_centers"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text2_centers"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/image_centers"
-                android:scaleType="centerCrop"
-                android:contentDescription="@string/contentDescription"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text2_centers"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
-
-            <Button
-                android:id="@+id/b_centers"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website"
-                android:gravity="start|center_vertical"
-                android:text="@string/button_videos_engagement"
-                android:textColor="@color/white"
-                android:textSize="@dimen/size_text_button" />
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        <Button
+            android:id="@+id/b_centers"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/padding"
+            android:background="@drawable/custom_buttons_main"
+            android:drawableStart="@mipmap/button_website"
+            android:gravity="start|center_vertical"
+            android:text="@string/button_videos_engagement"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

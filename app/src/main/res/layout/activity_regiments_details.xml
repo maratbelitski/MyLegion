@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/fon_detail"
     android:orientation="vertical"
     android:scrollbars="none"
     tools:context=".today.RegimentsDetailsActivity">
 
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar_main" />
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <ScrollView
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar_main" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none">
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,9 +34,9 @@
                 android:id="@+id/regiment_header"
                 android:layout_width="match_parent"
                 android:layout_height="230dp"
+                android:contentDescription="@string/contentDescription"
                 android:scaleType="centerCrop"
-                android:src="@drawable/header_traditions"
-                android:contentDescription="@string/contentDescription"/>
+                android:src="@drawable/header_traditions" />
 
             <ImageView
                 android:id="@+id/regiment_logo"
@@ -36,8 +44,8 @@
                 android:layout_height="155dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
-                android:src="@drawable/logo_leg"
-                android:contentDescription="@string/contentDescription"/>
+                android:contentDescription="@string/contentDescription"
+                android:src="@drawable/logo_leg" />
 
             <TextView
                 android:id="@+id/regiment_title"
@@ -59,5 +67,5 @@
                 android:textColor="@color/black"
                 android:textSize="@dimen/size_text_normal" />
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

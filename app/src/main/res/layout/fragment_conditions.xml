@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,69 +8,63 @@
     android:orientation="vertical"
     tools:context=".candidate.ConditionsFragment">
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:contentDescription="@string/contentDescription"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_conditions" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:contentDescription="@string/contentDescription">
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text1_condition"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:src="@drawable/header_conditions"
-                android:scaleType="centerCrop"
-                android:contentDescription="@string/contentDescription"/>
+        <Button
+            android:id="@+id/b_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/padding"
+            android:background="@drawable/custom_buttons_main"
+            android:drawableStart="@mipmap/button_website"
+            android:gravity="start|center_vertical"
+            android:text="@string/button_videos_conditions1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text1_condition"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
+        <Button
+            android:id="@+id/b_conditions2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/padding"
+            android:background="@drawable/custom_buttons_main"
+            android:drawableStart="@mipmap/button_website"
+            android:gravity="start|center_vertical"
+            android:text="@string/button_videos_conditions2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
 
-            <Button
-                android:id="@+id/b_conditions"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website"
-                android:gravity="start|center_vertical"
-                android:text="@string/button_videos_conditions1"
-                android:textColor="@color/white"
-                android:textSize="@dimen/size_text_button" />
-
-            <Button
-                android:id="@+id/b_conditions2"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website"
-                android:gravity="start|center_vertical"
-                android:text="@string/button_videos_conditions2"
-                android:textColor="@color/white"
-                android:textSize="@dimen/size_text_button" />
-
-            <Button
-                android:id="@+id/b_conditions3"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website"
-                android:gravity="start|center_vertical"
-                android:text="@string/button_videos_conditions3"
-                android:textColor="@color/white"
-                android:textSize="@dimen/size_text_button" />
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        <Button
+            android:id="@+id/b_conditions3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/padding"
+            android:background="@drawable/custom_buttons_main"
+            android:drawableStart="@mipmap/button_website"
+            android:gravity="start|center_vertical"
+            android:text="@string/button_videos_conditions3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

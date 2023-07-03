@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,44 +8,38 @@
     android:orientation="vertical"
     tools:context=".candidate.PossibilityFragment">
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_oficcially" />
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text1_possibility"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/header_oficcially"
-                android:contentDescription="@string/contentDescription"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text1_possibility"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
-
-            <Button
-                android:id="@+id/b_possibility"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_margin="@dimen/padding"
-                android:background="@drawable/custom_buttons_main"
-                android:drawableStart="@mipmap/button_website_round"
-                android:gravity="start|center_vertical"
-                android:text="@string/button_videos_legion"
-                android:textColor="@color/white"
-                android:textSize="@dimen/size_text_button" />
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        <Button
+            android:id="@+id/b_possibility"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="@dimen/padding"
+            android:background="@drawable/custom_buttons_main"
+            android:drawableStart="@mipmap/button_website_round"
+            android:gravity="start|center_vertical"
+            android:text="@string/button_videos_legion"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_text_button" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

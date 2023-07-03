@@ -6,6 +6,7 @@
 
 
     <string name="app_name" translatable="false">MyLegion</string>
+    <string name="contentDescription" translatable="false">image French Foreign Legion</string>
     <string name="b_list_choice_0" translatable="false">\  1 RE</string>
     <string name="b_list_choice_1" translatable="false">\  1 REC</string>
     <string name="b_list_choice_2" translatable="false">\  1 REG</string>
@@ -32,7 +33,7 @@
     <string name="text_setting">The application <b>MyLegion</b> is an informational project
 and is dedicated to the topic of the French foreign legion.\n
 All information is taken from official open sources.\n\n
-Application Version: 1.0\n
+Application Version: 1.1\n
 Date: 07.2023\n\n
 Developer: Belitski Marat\n
 email: belitski.dev@gmail.com </string>
@@ -109,7 +110,8 @@ do you really need a Legion.</i>
 
     <string name="text_advice2"><i>Get your health in order. Do not neglect this,
 as France does not want to hire people with health problems.
-The better you prepare, the more profitable you will look against the background of others during the selection.
+The better you prepare, the more profitable you will look against the background of others
+during the selection.
 If there were operations, take with you copies of certificates that there are no health consequences,
 translate them. The doctor may take them into consideration </i>
 </string>
@@ -119,7 +121,8 @@ that 100% depends on the candidate, where you can show everything you are capabl
 Don\'t stop at the minimum! Train harder! Remember about the contest! </i>
 </string>
 
-    <string name="text_advice4"><i>Before the trip, practice on the Internet – there are many tests of any kind.
+    <string name="text_advice4"><i>Before the trip, practice on the Internet – there are many
+tests of any kind.
 The tests will be given in your native language, you will understand all the conditions.
 When selecting, do not focus on one question, you cannot find the answer, you doubt – go further.</i>
 </string>
@@ -132,27 +135,67 @@ If you are confident in the steadfastness of your legend – go ahead.</i>
 
     <string name="name_description_0"><b>Slogan:</b> \"Honneur et Fidelite\"\n<b>Located:</b> Aubany\n<b>Holiday:</b> 30.04. Battle of Cameron\n\n
 <b>History.</b>\n
-The heir of the glorious past, the 1st Foreign Regiment is the oldest. Created in 1841, it participated in most of the conflicts in which the Legion distinguished itself, and paid a high price in them. Having become a support and command regiment in 1946, he finally repatriated to France on October 26, 1962 and settled in Aubany, in the Vienot area. The 1st Regiment today is an important milestone for the legionnaires who are part of it, thanks to its traditions and heritage, of which it is the guardian.
+The heir of the glorious past, the 1st Foreign Regiment is the oldest. Created in 1841, it
+participated in most of the conflicts in which the Legion distinguished itself,
+and paid a high price in them.
+Having become a support and command regiment in 1946, he finally repatriated to
+France on October 26, 1962 and settled in Aubany, in the Vienot area.
+The 1st Regiment today is an important milestone for the legionnaires who are part of it,
+thanks to its traditions and heritage, of which it is the guardian.
 \n\n<b>Contribution to the common cause of foreign regiments.</b>
-\nThe 1st Regiment assumes command and administrative management of the wounded in the Legion through the Commission for the Supervision of the Wounded (CSBLE), as well as all passing and individual personnel of the regiments. In accordance with the principle of legionnaire solidarity, the regiment has at its disposal special accommodation and recreation facilities that allow taking into account the interests of legionnaires and their families. These are the Center for convalescents and temporary residents of the Foreign Legion of Malmusk in Marseille (CCPLEM) and the Center for Accommodation and Reception in La Ciotat.
+\nThe 1st Regiment assumes command and administrative management of the wounded in the Legion
+through the Commission for the Supervision of the Wounded (CSBLE), as well as all passing
+and individual personnel of the regiments.
+In accordance with the principle of legionnaire solidarity, the regiment has at its disposal
+special accommodation and recreation facilities
+that allow taking into account the interests of legionnaires and their families.
+These are the Center for convalescents and temporary residents of the Foreign Legion
+of Malmusk in Marseille (CCPLEM) and the Center for Accommodation and Reception in La Ciotat.
 \n\n<b>Legion Ambassador</b>.\n
-The Regiment takes over the organization of events and ceremonies, such as Cameron, where the Day of the Wounded is celebrated, for the benefit of the entire Legion. These performances are regularly supplemented by the presence of musicians of the Foreign Legion or pioneers.
-The Foreign Legion is the only unit in the French army that has preserved the tradition of bearded pioneers in white gloves, aprons made of buffalo hide proudly carrying an axe on their shoulders.
+The Regiment takes over the organization of events and ceremonies, such as Cameron,
+where the Day of the Wounded is celebrated, for the benefit of the entire Legion.
+These performances are regularly supplemented by the presence of musicians of
+the Foreign Legion or pioneers.
+The Foreign Legion is the only unit in the French army that has preserved the tradition of bearded
+pioneers in white gloves, aprons made of buffalo hide proudly carrying an axe on their shoulders.
 </string>
 
     <string name="name_description_1"><b>Slogan:</b> \"Nec pluribus impar\"\n<b>Located:</b> Karpian\n<b>Holiday:</b> 23.04. St. George\'s Day\n\n
 <b>History.</b>
-\nThe regiment was founded in 1921 in Sousse, Tunisia, from elements of the mounted companies of the 2nd Royal Army. At that time, the foreign Legion consisted only of infantry regiments. It was the Russian legionnaires, relying on their experience as riders, who allowed the Legion to prove itself in the new discipline. History has preserved the important ability of cavalry legionnaires to adapt: fighting on horseback in Syria and Morocco, the legionnaires of the 1st Regiment have been equipped with machine guns since 1930. The legionnaires distinguished themselves during the campaigns in France and Tunisia in 1940 and 1943. After the end of the war, they were equipped with AMM 8. During the Indochina War, the legionnaires transformed their regiment into amphibious units designed for combat operations on board \"crabs\“ and \”alligators\". Arriving from Algeria, they returned to reconnaissance work and were equipped with suitable armored vehicles.
-Consisting of multi-purpose armored units, the 1st Foreign Cavalry Regiment (1st REC) specializes in the field of fighting armored vehicles. An expert in the field of offensive reconnaissance, counter combat and establishing contact, his advantage lies in his ability to conduct strong, fast and accurate fire at any time. Reconnaissance and operational squadrons perfectly complement these combat capabilities with the presence of tactical intelligence. Equipped with AMX 10 RC-R tanks, its three squadrons specialize in offensive reconnaissance missions.
-The other two squadrons, equipped with light armored vehicles, specialize in performing reconnaissance and operational tasks, conducting tactical reconnaissance and anti-tank operations.
+\nThe regiment was founded in 1921 in Sousse, Tunisia, from elements of the mounted companies of
+the 2nd Royal Army. At that time, the foreign Legion consisted only of infantry regiments.
+It was the Russian legionnaires, relying on their experience as riders, who allowed the
+Legion to prove itself in the new discipline. History has preserved the important ability
+of cavalry legionnaires to adapt: fighting on horseback in Syria and Morocco, the legionnaires
+of the 1st Regiment have been equipped with machine guns since 1930. The legionnaires
+distinguished themselves during the campaigns in France and Tunisia in 1940 and 1943.
+After the end of the war, they were equipped with AMM 8. During the Indochina War,
+the legionnaires transformed their regiment into amphibious units designed for combat
+operations on board \"crabs\“ and \”alligators\".
+Arriving from Algeria, they returned to reconnaissance work and were equipped with suitable armored
+vehicles.
+Consisting of multi-purpose armored units, the 1st Foreign Cavalry Regiment (1st REC) specializes
+in the field of fighting armored vehicles. An expert in the field of offensive reconnaissance,
+counter combat and establishing contact, his advantage lies in his ability to conduct strong,
+fast and accurate fire at any time.
+Reconnaissance and operational squadrons perfectly complement these combat capabilities with the
+presence of tactical intelligence.
+Equipped with AMX 10 RC-R tanks, its three squadrons specialize in offensive reconnaissance
+missions.
+The other two squadrons, equipped with light armored vehicles, specialize in performing
+reconnaissance and operational tasks, conducting tactical reconnaissance and anti-tank operations.
 \n\n<b>Organization.</b>
 \n1st REC has six squadrons in combat order and one reserve.
-\Command and Staff squadron: \pOn provides the necessary support for the proper functioning of the regiment. Whether it\'s on exercises or on a mission. It provides logistical autonomy for legionnaires in operations.
-\nTri divided squadrons:
-The 1st, 2nd and 3rd squadrons consist of 4 armored platoons each. They are equipped with the AMX 10 RC-R, a mobile and powerful wheeled armored vehicle with a 105 mm cannon.
-\pDva Reconnaissance and Response Squadron:
-Each of the 4th and 5th squadrons consists of 4 reconnaissance and operational platoons. They are equipped with VBLs designed for lighting, reconnaissance or anti-tank response tasks.
-\Condom Squadron:
+\nCommand and Staff squadron: \pOn provides the necessary support for the proper functioning of the
+regiment. Whether it\'s on exercises or on a mission.
+It provides logistical autonomy for legionnaires in operations.
+\nThree divided squadrons:
+The 1st, 2nd and 3rd squadrons consist of 4 armored platoons each. They are equipped with the
+AMX 10 RC-R, a mobile and powerful wheeled armored vehicle with a 105 mm cannon.
+\nDva Reconnaissance and Response Squadron:
+Each of the 4th and 5th squadrons consists of 4 reconnaissance and operational platoons.
+They are equipped with VBLs designed for lighting, reconnaissance or anti-tank response tasks.
+\nReserve squadron:
 \It performs various missions of the regiment.
 </string>
 
@@ -160,213 +203,336 @@ Each of the 4th and 5th squadrons consists of 4 reconnaissance and operational p
 <b>History.</b>
 \nThe regiment was created in 1984 under the name of the 6th Foreign Engineer Regiment.
 Barely created, it operates in the CAR, Chad, and then in Lebanon.
-In 1990, he proved himself in the Dage department, and then in 1992 participated in Cambodia, Bosnia and Somalia.
-Having been present in several theaters of military operations, he was involved in 1994 as part of Operation Turquoise in Rwanda and in Sarajevo in 1995.
+In 1990, he proved himself in the Dage department, and then in 1992 participated in Cambodia,
+Bosnia and Somalia.
+Having been present in several theaters of military operations, he was involved in 1994 as part of
+Operation Turquoise in Rwanda and in Sarajevo in 1995.
 In 1999, it became the 1st Foreign Engineer Regiment (1st REG) when the 2nd Regiment was created.
-Under this name, it is integrated into the KFOR (NATO peacekeeping force in Kosovo) and regularly supplies units to Guyana, Mayotte and Djibouti.
-At the beginning of this century, the regiment will be involved in Eritrea, the Republic of Côte d\'Ivoire.\'Ivory Coast, Afghanistan, Lebanon, Chad, Mali and on the national territory.
-\nAssault Engineering Unit, 1st Foreign Engineer Regiment (1st REG) performs tasks to support mobility, support and assist in deployment in emergency situations.
-It is suitable for performing tasks of participating in contact combat, in particular, when conducting operations in urban conditions or asymmetric conflicts.
-Thus, he can conduct medium reconnaissance operations within the framework of “entry first” and amphibious operations.
+Under this name, it is integrated into the KFOR (NATO peacekeeping force in Kosovo) and regularly
+supplies units to Guyana, Mayotte and Djibouti.
+At the beginning of this century, the regiment will be involved in Eritrea, the Republic of
+Côte d\'Ivoire.\'Ivory Coast, Afghanistan, Lebanon, Chad, Mali and on the national territory.
+\nAssault Engineering Unit, 1st Foreign Engineer Regiment (1st REG) performs tasks to support mobility,
+support and assist in deployment in emergency situations.
+It is suitable for performing tasks of participating in contact combat, in particular,
+when conducting operations in urban conditions or asymmetric conflicts.
+Thus, he can conduct medium reconnaissance operations within the framework of “entry first” and
+amphibious operations.
 Legionnaires of the 1st regiment are, first of all, sappers who have received special training.
-The diverse equipment and versatile experience of the sappers-legionnaires allow the regiment to regularly participate in the elimination of the consequences of natural disasters on the national territory. \n\n<b>Organization.</b>
+The diverse equipment and versatile experience of the sappers-legionnaires allow the regiment to
+regularly participate in the elimination of the consequences of natural disasters on the
+national territory. \n\n<b>Organization.</b>
 \nThe 1st regiment consists of six companies, to which a reserve company is added.
-Command and staff company: in addition to receiving trained legionnaires, the main task of this company is technical and administrative support of combat units.
+Command and staff company: in addition to receiving trained legionnaires, the main task of this
+company is technical and administrative support of combat units.
 \Four combat companies:
-Each company consists of 3 combat platoons and a support platoon, which are especially well prepared for harsh climatic conditions.
+Each company consists of 3 combat platoons and a support platoon, which are especially well prepared
+for harsh climatic conditions.
 \n Support Company:
-Its main areas, divided into seven separate sections, include: deployment support, terrain organization, interaction support with the help of amphibious specialists, water production and purification, mine clearance and special operational excavations.
-The reserve company: Integrated into all the tasks of the regiment, the reserve company is actively involved in Operation Sentry to support combat units and security in the country.
+Its main areas, divided into seven separate sections, include: deployment support, terrain organization,
+interaction support with the help of amphibious specialists, water production and purification,
+mine clearance and special operational excavations.
+The reserve company: Integrated into all the tasks of the regiment, the reserve company is actively
+involved in Operation Sentry to support combat units and security in the country.
 </string>
 
     <string name="name_description_3"><b>Slogan:</b> \"Rien n\'empêche\"\n<b>Located:</b> G.Sant Cristol\n<b>Holiday:</b> 4.12. St. Barbarian\'s Day\n\n
 <b>History.</b>\n
-The 2nd Regiment is the heir to the traditions of the 22nd, 26th and 76th Engineer Battalions of the Indochina Legion.
-Since its inception, it has participated in many missions and operations in Djibouti, Bosnia and Kosovo between 1999 and 2008.
-He participates in all operations of the ground forces, especially in the Republic of Côte-d\'Ivory Coast, Central African Republic and Afghanistan.
-He takes an active part in today\'s operations, be it Sentinel or Harpie (combating illegal gold mining in Guyana) in the national theater of operations or in more remote places, in the Sahel, Iraq, Ivory Coast.\'Ivorian and Lebanese.
-The engineering and assault unit of the 2nd Foreign Engineer Regiment (2nd Reg) performs tasks to support mobility, assist in deployment in emergency situations.
-In addition, it is suitable for performing tasks in mountainous areas and in conditions of severe cold, requiring special knowledge and skills for this environment.
-Thus, the 2nd Reg has a Reconnaissance and Offensive Response Section (SRIO) consisting of two mountain commando groups (GCM), a group of engineering combat divers (PCG) and a Mountain combat support Section (SAEM).
-The training of legionnaires of the 2nd regiment is carried out taking into account the specifics of their field of activity.
-Thus, mountain legionnaires retain their special skills by spending at least two annual stays in mountainous areas, one mainly in summer and the other mainly in winter.
-The military post in the Valloir mountains and the Camp de Rochelle (Savoy) are the mainstays of their training.
+The 2nd Regiment is the heir to the traditions of the 22nd, 26th and 76th Engineer Battalions of the
+Indochina Legion.
+Since its inception, it has participated in many missions and operations in Djibouti, Bosnia and
+Kosovo between 1999 and 2008.
+He participates in all operations of the ground forces, especially in the Republic of Côte-d\'Ivory
+Coast, Central African Republic and Afghanistan.
+He takes an active part in today\'s operations, be it Sentinel or Harpie (combating illegal gold
+mining in Guyana) in the national theater of operations or in more remote places, in the Sahel,
+Iraq, Ivory Coast.\'Ivorian and Lebanese.
+The engineering and assault unit of the 2nd Foreign Engineer Regiment (2nd Reg) performs tasks to
+support mobility, assist in deployment in emergency situations.
+In addition, it is suitable for performing tasks in mountainous areas and in conditions of severe cold,
+requiring special knowledge and skills for this environment.
+Thus, the 2nd Reg has a Reconnaissance and Offensive Response Section (SRIO) consisting of two mountain
+commando groups (GCM), a group of engineering combat divers (PCG) and a Mountain combat support
+Section (SAEM).
+The training of legionnaires of the 2nd regiment is carried out taking into account the specifics of
+their field of activity.
+Thus, mountain legionnaires retain their special skills by spending at least two annual stays in
+mountainous areas, one mainly in summer and the other mainly in winter.
+The military post in the Valloir mountains and the Camp de Rochelle (Savoy) are the mainstays of
+their training.
 The regiment is equipped with FELIN system and
 BV206 tracked combat vehicles.
 \n\n<b>Organization.</b>
 \n2nd regiment consists of six companies, to which a reserve company is added.
 \nCommand and staff company:
-In addition to receiving trained legionnaires, the main task of this company is the technical and administrative support of combat units.
+In addition to receiving trained legionnaires, the main task of this company is the technical and
+administrative support of combat units.
 \nFour combat companies:
 Each company consists of three combat platoons and a support platoon.
-They are suitable for all engineering tasks and are especially well adapted to extreme climatic conditions and mountainous terrain.
+They are suitable for all engineering tasks and are especially well adapted to extreme climatic
+conditions and mountainous terrain.
 \nHelp company:
-It consists of nine separate sections, in which very specific tasks are concentrated: organization of terrain crossing, assistance in deployment, assistance in combat operations in the mountains, reconnaissance and offensive intervention, operational component of mine clearance and mine clearance.
+It consists of nine separate sections, in which very specific tasks are concentrated: organization
+of terrain crossing, assistance in deployment, assistance in combat operations in the mountains,
+reconnaissance and offensive intervention, operational component of mine clearance and mine
+clearance.
 \nRepair company:
 Integrated into the regiment, she participates in all its missions.
 </string>
 
     <string name="name_description_4"><b>Slogan:</b> \"Etre pret\"\n<b>Located:</b> Nim\n<b>Holiday:</b> 2.09. Day of the Battle of El Mongar\n\n
 <b>History.</b>
-\nCreated in 1841, having participated in all major operations of the French army since its inception, the regiment, in particular, proved itself on September 2, 1903 in the Battle of El Mungar in Morocco, in which 113 legionnaires resisted more than 1,000 Berbers.
+\nCreated in 1841, having participated in all major operations of the French army since its inception,
+the regiment, in particular, proved itself on September 2, 1903 in the Battle of El Mungar in
+Morocco, in which 113 legionnaires resisted more than 1,000 Berbers.
 Subsequently, the 2nd REI participated in many theaters of military operations in Indochina and Algeria.
-Most recently, he was involved during the Gulf War, then participated in ongoing operations on Barkhan or Shammal, as well as in missions in Estonia or Burkina Faso.
-When landing, each combat unit has a wide range of conventional weapons, such as PGM precision rifles or ERYX and MILAN anti-tank missiles, equipped with the latest equipment.
-The regiment was one of the first to receive the MMP, a medium-range anti-tank missile of the latest generation, which allows destroying targets at a distance of up to 5 km with great efficiency.
+Most recently, he was involved during the Gulf War, then participated in ongoing operations on Barkhan
+or Shammal, as well as in missions in Estonia or Burkina Faso.
+When landing, each combat unit has a wide range of conventional weapons, such as PGM precision rifles
+or ERYX and MILAN anti-tank missiles, equipped with the latest equipment.
+The regiment was one of the first to receive the MMP, a medium-range anti-tank missile of the latest
+generation, which allows destroying targets at a distance of up to 5 km with great efficiency.
 In 2019, the newest HK416 assault rifle entered service with combat companies.
 \n\n<b>Organization.</b>
 \nCommand and Engineering Company (CCL) :
 This company provides the necessary support for the normal functioning of the regiment.
 During exercises or in a mission, it provides units with logistical autonomy.
-Five combat companies:
+\nFive combat companies:
 Each company is divided into four combat platoons, one of which has dual weapons.
-It can be used as an infantry division or as an auxiliary division with a group of 81 mm LLR mortars and the Milan group.
+It can be used as an infantry division or as an auxiliary division with a group of 81 mm LLR mortars
+and the Milan group.
 Auxiliary Company (CA):
-This company consists of four platoons, including an anti-tank platoon (SAC), a close support platoon (SAD), a sniper platoon (STE) and an amphibious support platoon (SAED).
+This company consists of four platoons, including an anti-tank platoon (SAC), a close support platoon
+(SAD), a sniper platoon (STE) and an amphibious support platoon (SAED).
 \n Repair company:
-Consisting of former legionnaires, former Army servicemen, former contingent conscripts and civilian volunteers, this company is formulated as combat companies and regularly participates in various events and operational missions of the regiment.
+Consisting of former legionnaires, former Army servicemen, former contingent conscripts and civilian
+volunteers, this company is formulated as combat companies and regularly participates in various
+events and operational missions of the regiment.
 </string>
 
     <string name="name_description_5"><b>Slogan:</b> \"More majorum\"\n<b>Located:</b> Calvi\n<b>Holiday:</b> 29.09. St. Michael\'s Day\n\n
 <b>History.</b>\n
-The 2nd REP is the heir to the traditions of the 2nd Foreign Parachute Battalion, which operated in Indochina from its inception in 1948 until 1954.
+The 2nd REP is the heir to the traditions of the 2nd Foreign Parachute Battalion, which operated in
+Indochina from its inception in 1948 until 1954.
 Under this name, the regiment participated in the Algerian War from 1955 to 1962.
-After its initial deployment to Calvi in 1967, the 2nd Regiment proved itself in all operations of the French army, especially in Africa, the former Yugoslavia, the Middle East and Asia.
-The 2nd rep is a feature consisting in the fact that since 1962, each of its five combat companies has been perfected in a certain area of work.
+After its initial deployment to Calvi in 1967, the 2nd Regiment proved itself in all operations of
+the French army, especially in Africa, the former Yugoslavia, the Middle East and Asia.
+The 2nd rep is a feature consisting in the fact that since 1962, each of its five combat companies
+has been perfected in a certain area of work.
 These improvements have changed over time, but the principle remains the same.
-Each company is a specialist in its field and uses its special know-how for the benefit of the rest of the regiment.
+Each company is a specialist in its field and uses its special know-how for the benefit of the rest of
+the regiment.
 \n\n<b>Organization.</b>
-\nCommand and staff company: this company equips the regiment\'s command post and provides logistical support for the regiment, both in the area and during training, as well as during operations.
-\nThe fighting mouth:
-Each company consists of a command department, three combat departments and an auxiliary department. Each of them specializes in battles in a specific environment: urban areas, mountains and rugged terrain, aquatic environments, woodlands, deserts and arid areas.
-\n Support Company:
+\nCommand and staff company: this company equips the regiment\'s command post and provides logistical
+support for the regiment, both in the area and during training, as well as during operations.
+\nThe fighting companies:
+Each company consists of a command department, three combat departments and an auxiliary department.
+Each of them specializes in battles in a specific environment: urban areas, mountains and
+rugged terrain, aquatic environments, woodlands, deserts and arid areas.
+\nSupport Company:
 It consists of an MMP (medium-range missiles) unit, a sniper unit and a commando paratrooper unit.
 In addition, she works with the machine gun support section.
 </string>
 
     <string name="name_description_6"><b>Slogan:</b> \"Legio Patria Nostra\"\n<b>Located:</b> Kuru\n<b>Holiday:</b> 14.09. Battle of Hindenburg\n\n
 <b>History.</b>
-\n3rd Ray is the heir of the marching regiments of the Foreign Legion of both World Wars.  After the victory on May 8, 1945, the 3rd REI was involved in Indochina from 1946, where it proved itself in Tonkin, up to Dien Bien Phu.
+\n3rd Ray is the heir of the marching regiments of the Foreign Legion of both World Wars.
+After the victory on May 8, 1945, the 3rd REI was involved in Indochina from 1946, where it
+proved itself in Tonkin, up to Dien Bien Phu.
 In 1955, he returned to Algeria, where he took an active part in operations to maintain order.
-Having seconded the battalion to Madagascar in 1956, the regiment was stationed there in 1962, and then from 1973 settled in French Guiana in the Forge area in Kourou.
-The 3rd REI is responsible for the Equatorial Forests Training Center (CEFE), the preferred operational readiness tool.
-The 3rd Ray specializes in jungle fighting and has life experience in this challenging environment. CEFE is a center for advanced training abroad (CAOME) with a national and international focus.
-It is a French reference center for actions in the jungle and offers combat and training courses for permanent companies of the regiment, units stationed in Guiana, as well as for students in Saint-Cyr-Coetquidan.
-Jaguar\'s international internship has become a reference point and trains many interns from Europe, North and South America, which makes it possible to compare it with the CIGS internship in Manaus, Brazil.
+Having seconded the battalion to Madagascar in 1956, the regiment was stationed there in 1962,
+and then from 1973 settled in French Guiana in the Forge area in Kourou.
+The 3rd REI is responsible for the Equatorial Forests Training Center (CEFE), the preferred operational
+readiness tool.
+The 3rd Ray specializes in jungle fighting and has life experience in this challenging environment.
+CEFE is a center for advanced training abroad (CAOME) with a national and international focus.
+It is a French reference center for actions in the jungle and offers combat and training courses for
+permanent companies of the regiment, units stationed in Guiana, as well as for students in
+Saint-Cyr-Coetquidan.
+Jaguar\'s international internship has become a reference point and trains many interns from Europe,
+North and South America, which makes it possible to compare it with the CIGS internship in
+Manaus, Brazil.
 \n\n<b>Organization.</b>
 \n3rd regiment consists of five companies:
-Command and Support Company: It includes a unit to assist paratroopers, as well as special naval support in addition to traditional support, this company, in particular, is responsible for the training center in the Equatorial forests (CEFE) and two forward operational bases, permanent posts located along the Oyapoka border with Brazil.
+Command and Support Company: It includes a unit to assist paratroopers, as well as special naval
+support in addition to traditional support, this company, in particular, is responsible for
+the training center in the Equatorial forests (CEFE) and two forward operational bases,
+permanent posts located along the Oyapoka border with Brazil.
 \nTwo combat companies:
-These infantry combat companies perform surveillance, reconnaissance and zone control tasks within the two main tasks of the regiment, the Titan and the Harpy.
+These infantry combat companies perform surveillance, reconnaissance and zone control tasks within
+the two main tasks of the regiment, the Titan and the Harpy.
 \nHelp company:
-Consisting of an anti-aircraft battery of one of the artillery regiments of the metropolis, this rotational unit, in particular, participates in the protection of the airspace of the Guiana Space Center
+Consisting of an anti-aircraft battery of one of the artillery regiments of the metropolis, this
+rotational unit, in particular, participates in the protection of the airspace of the
+Guiana Space Center
 \nReserv Infantry company:
 Integrated into the regiment, she participates in all its missions.
     </string>
 
     <string name="name_description_7"><b>Slogan:</b> \"Honneur et Fidelite\"\n<b>Located:</b> Castellnodori\n<b>Holiday:</b> 15.11. Day of creation\n\n
 <b>History.</b>\n
-Created in 1920 in Marrakech, Morocco, it carried out peacekeeping missions there, thus receiving the name \"Regiment of Morocco\".
-Further disbandments and recreations will follow, as a result of which the regiment will turn into a formed unit or into a battalion form, from the Tunisian campaign to Indochina, from Madagascar to Morocco.
+Created in 1920 in Marrakech, Morocco, it carried out peacekeeping missions there, thus receiving
+the name \"Regiment of Morocco\".
+Further disbandments and recreations will follow, as a result of which the regiment will turn into
+a formed unit or into a battalion form, from the Tunisian campaign to Indochina, from Madagascar to Morocco.
 The regiment was disbanded in 1963.
-A few years later, the training group of the Foreign Legion (GILE), stationed in Corte (Corsica), inherited the mission of training all legionnaires.
-The group will be transferred in 1976 to Castelnaudary, where it will become the 4th foreign regiment, the center
+A few years later, the training group of the Foreign Legion (GILE), stationed in Corte (Corsica),
+inherited the mission of training all legionnaires.
+The group will be transferred in 1976 to Castelnaudary, where it will become the 4th foreign regiment,
+the center
 of the training system for legionnaires and future personnel.
 \n\n<b>Initial training.</b>
 \nThe training of young volunteers includes two components: upbringing and education.
 \nEducation:
 The principle is that every legionnaire is a fighter called to serve independently in any Legion regiment, infantry, engineer or cavalry.
-Thus, the training of legionnaires is carried out on the most difficult basis, on the basis of infantry combat, which most contributes to the development of the spirit of the \“assault squad\”, which the Legion expects from its people, regardless of their professions, specialties or future assignments.
+Thus, the training of legionnaires is carried out on the most difficult basis, on the basis of
+infantry combat, which most contributes to the development of the spirit of the
+\“assault squad\”, which the Legion expects from its people, regardless of their professions,
+specialties or future assignments.
 \nEducation:
 The legionnaire\'s education follows a more original path.
-First of all, it is about promoting the integration of volunteers with a double priority of learning French and living in society.
+First of all, it is about promoting the integration of volunteers with a double priority of learning
+French and living in society.
 \nTraining of personnel.
-The main imperative remains to meet the needs of army regiments and strictly follow the logic of the actions of the Ground Forces.
-The regiment offers all the necessary training of specialists (paramedic, mechanic, pilot, signalman, cook, etc.) necessary to maintain this autonomous combat capability of the regiments of the armed forces.
+The main imperative remains to meet the needs of army regiments and strictly follow the logic of the
+actions of the Ground Forces.
+The regiment offers all the necessary training of specialists (paramedic, mechanic, pilot, signalman,
+cook, etc.) necessary to maintain this autonomous combat capability of the regiments of the
+armed forces.
 \n\n<b>Selection and training of managers.</b>
-The centralized instruction system allows identifying and evaluating future leaders of the Legion according to a common criterion.
+The centralized instruction system allows identifying and evaluating future leaders of the Legion
+according to a common criterion.
 The regiments send their best legionnaires to Castelnaudary to make them Corporals.
-All the legionnaires passing through the various compositions find themselves in a competitive position, but with equal opportunities.
+All the legionnaires passing through the various compositions find themselves in a competitive position,
+but with equal opportunities.
 The best of them will be determined to pass through a platoon of non-commissioned officers.
-Based on the principle of respect for equality, this system, known as merit-based promotion, has proven itself and provides the Legion with leadership titles and leaders of recognized quality.
+Based on the principle of respect for equality, this system, known as merit-based promotion, has proven
+itself and provides the Legion with leadership titles and leaders of recognized quality.
 </string>
 
     <string name="name_description_8"><b>Slogan:</b> \"More majorum\"\n<b>Located:</b> Larzak\n<b>Holiday:</b> 30.04. Battle of Cameron\n\n
 <b>History.</b>\n
-Created in 1940, the 13th Demi-Brigade of the Foreign Legion participated in many conflicts during the first 22 years of its existence.
-Being the core of the Free French forces during World War II, it fought from Norway to Italy and became especially famous in Bir Hakeim, El Alamein, Tunis and Alsace. Subsequently, she took part in the bloody war in Indochina and operations in Algeria. In 1962, the 13th Division moved to the French coast of Somalia, which became the Republic of Djibouti.
-Tied to this African land, she will shine there for 49 years, fully fulfilling her role as a pre-positioned force in the French troops in Djibouti.
-pOna left Africa on July 31, 2011 to settle with French troops in the United Arab Emirates, where she will participate in the fight against terrorism as part of Operation SHAMMAL.
-Since the summer of 2016, she has been stationed in the Larzak camp and participates in Ground Forces missions on a regular basis.
-These units perform the same tasks as all companies of an infantry regiment (MISSINT, OPEX, MCD), the distinctive feature of which is its VAB ULTIMA combat vehicle.
-The 13th DBLE also has under its organic command a Level 2 Training Space Detachment (DEEN2) in LARZAC (formerly CEITO), which today is designed to control infantry.
+Created in 1940, the 13th Demi-Brigade of the Foreign Legion participated in many conflicts during the
+first 22 years of its existence.
+Being the core of the Free French forces during World War II, it fought from Norway to Italy and became
+especially famous in Bir Hakeim, El Alamein, Tunis and Alsace.
+Subsequently, she took part in the bloody war in Indochina and operations in Algeria. In 1962,
+the 13th Division moved to the
+French coast of Somalia, which became the Republic of Djibouti.
+Tied to this African land, she will shine there for 49 years, fully fulfilling her role as a
+pre-positioned force in the French troops in Djibouti.
+pOna left Africa on July 31, 2011 to settle with French troops in the United Arab Emirates, where she
+will participate in the fight against terrorism as part of Operation SHAMMAL.
+Since the summer of 2016, she has been stationed in the Larzak camp and participates in Ground Forces
+missions on a regular basis.
+These units perform the same tasks as all companies of an infantry regiment (MISSINT, OPEX, MCD), the
+distinctive feature of which is its VAB ULTIMA combat vehicle.
+The 13th DBLE also has under its organic command a Level 2 Training Space Detachment (DEEN2) in
+LARZAC (formerly CEITO), which today is designed to control infantry.
 \n\n<b>Organization.</b>
-\nCommand and staff company: this company provides the necessary support for the proper functioning of the regiment.
-Being on exercises and on business trips, it provides the necessary logistical autonomy, as well as the means for living, movement and combat operations.
+\nCommand and staff company: this company provides the necessary support for the proper functioning
+of the regiment.
+Being on exercises and on business trips, it provides the necessary logistical autonomy, as well as
+the means for living, movement and combat operations.
 \nThe fighting mouth:
-Each of these companies consists of a command department, three combat departments and an auxiliary department. The Support Section is staffed by specialists in anti-tank and sniper operations, as well as a mortar group.
+Each of these companies consists of a command department, three combat departments and an auxiliary
+department. The Support Section is staffed by specialists in anti-tank and sniper operations,
+as well as a mortar group.
 \nHelp company:
-It consists of three separate units: elite riflemen units, amphibious support units with reconnaissance equipment and a direct support unit equipped with Milan missiles and heavy machine guns.
+It consists of three separate units: elite riflemen units, amphibious support units with reconnaissance
+equipment and a direct support unit equipped with Milan missiles and heavy machine guns.
 \n Repair company:
 Integrated into the regiment, she participates in all its missions.
 </string>
 
     <string name="name_description_9"><b>Slogan:</b> \"Pericula ludus\"\n<b>Located:</b> Mayotte\n<b>Holiday:</b> 30.04. Battle of Cameron\n\n
 <b>History.</b>\n
-When the 3rd REI left Madagascar and moved to Kourou, Guyana, in 1973, the second company attached to Dzauji formed and became a detachment of the Comoros Foreign Legion (DLEC).
-It received the name of the detachment of the Foreign Legion of Mayotte (DLEM) in 1976, after the declaration of independence of the Comoros.
-In 1984, the regiment was renamed the Guards under the banner of the 2nd Foreign Cavalry Regiment, which in 1939 was formed from the Moroccan squadrons of the 1st Regiment.
+When the 3rd REI left Madagascar and moved to Kourou, Guyana, in 1973, the second company attached to
+Dzauji formed and became a detachment of the Comoros Foreign Legion (DLEC).
+It received the name of the detachment of the Foreign Legion of Mayotte (DLEM) in 1976, after the
+declaration of independence of the Comoros.
+In 1984, the regiment was renamed the Guards under the banner of the 2nd Foreign Cavalry Regiment,
+which in 1939 was formed from the Moroccan squadrons of the 1st Regiment.
 Since 2010, DLEM has been attached to the Reunion-Mayotte Defense Base.
-The DLEM operational contract includes participation in emergency relief operations, support in the fight against illegal immigration (LIC), and the dispatch of operational training units (DIO).
-Having a privileged geographical position in the lagoon environment, it strengthens the center for training and training of sailors (CIAN) and an armed post in M\' face, on Grand Terre, designed for technical and tactical training of units.
-In addition, DLEM performs 50 reversible attendance tasks that allow for instructing while expanding the knowledge of the department. Finally, he gathers a permanent detachment
+The DLEM operational contract includes participation in emergency relief operations, support in the
+fight against illegal immigration (LIC), and the dispatch of operational training units (DIO).
+Having a privileged geographical position in the lagoon environment, it strengthens the center for
+training and training of sailors (CIAN) and an armed post in M\' face, on Grand Terre,
+designed for technical and tactical training of units.
+In addition, DLEM performs 50 reversible attendance tasks that allow for instructing while expanding
+the knowledge of the department. Finally, he gathers a permanent detachment
 on the islands.
 \n\n<b>Organization.</b>
 \nCommand and staff company:
-The task of this company is to provide the personnel and facilities necessary for the command and logistical support of DLEM and the ten military departments of the island in a Joint and interdepartmental context.
-Acting promptly, CCL can arm a combat unit in the shortest possible time, as well as a collection and evacuation center for citizens in forty-eight hours.
-Infantry Combat company: consists of 4 units, this company is staffed by military personnel who are on a short-term business trip (four months), both from general regime units and from the Foreign Legion.
+The task of this company is to provide the personnel and facilities necessary for the command and
+logistical support of DLEM and the ten military departments of the island in a Joint and
+interdepartmental context.
+Acting promptly, CCL can arm a combat unit in the shortest possible time, as well as a collection
+and evacuation center for citizens in forty-eight hours.
+Infantry Combat company: consists of 4 units, this company is staffed by military personnel who
+are on a short-term business trip (four months), both from general regime units and from
+the Foreign Legion.
 DLEM can be deployed within forty-eight hours in mission or operational mode.
 </string>
 
     <string name="name_description_10"><b>Slogan:</b> \"Honneur et Fidelite\"\n<b>Located:</b> Paris\n<b>Holiday:</b> 30.04. Battle of Cameron\n\n
 <b>History.</b>\n
-The last of the formations of the Foreign Legion (2007), the recruitment group of the Foreign Legion (GRLE) is an integral part of the base of the foreign Legion.
-Its headquarters are stationed at Fort Nogent in Fontenay-sous-Bois, but all ten information posts of the Foreign Legion (PILE) recruit personnel throughout the country\'s metropolis from the largest French cities.
-Since April 30, 2018, GRLE has been the guardian regiment of the traditions and memory of the 11th Foreign Infantry Regiment, whose flag was restored.
+The last of the formations of the Foreign Legion (2007), the recruitment group of the
+Foreign Legion (GRLE) is an integral part of the base of the foreign Legion.
+Its headquarters are stationed at Fort Nogent in Fontenay-sous-Bois, but all ten information posts of
+the Foreign Legion (PILE) recruit personnel throughout the country\'s metropolis from the
+largest French cities.
+Since April 30, 2018, GRLE has been the guardian regiment of the traditions and memory of the 11th
+Foreign Infantry Regiment, whose flag was restored.
 Because of its specifics, the device differs from the army one.
 The recruitment group of the Foreign Legion (GRLE) relies on a national network of information posts.
-They are divided into two large geographical zones, each of which is under the jurisdiction of the Pre-Selection Center.
+They are divided into two large geographical zones, each of which is under the jurisdiction of the
+Pre-Selection Center.
 \n\n<b>The group performs:</b>
-\n- informing, recruiting, receiving and preparing candidates for the initial call-up to the Foreign Legion.
+\n- informing, recruiting, receiving and preparing candidates for the initial call-up to the
+Foreign Legion.
 \n- preliminary medical examination conducted under the supervision of the attending physician.
 \n- recruitment of candidates and support before the initial hiring.
 \n- conclusion of contracts.
-GRLE provides transportation of candidates under contract to the center for selection and admission to service in the Foreign Legion (CSI), which is subordinate to the 1st Foreign Regiment.
-The system works continuously throughout the year, without interruptions for the candidate, from the moment of his application for a recruitment position to the beginning of his training.
-The selection is carried out with the help of sequential tests aimed at identifying the best potential players in order to grow a reliable, disciplined and hardy legionnaire in the short term.
+GRLE provides transportation of candidates under contract to the center for selection and admission
+to service in the Foreign Legion (CSI), which is subordinate to the 1st Foreign Regiment.
+The system works continuously throughout the year, without interruptions for the candidate, from the
+moment of his application for a recruitment position to the beginning of his training.
+The selection is carried out with the help of sequential tests aimed at identifying the best potential
+players in order to grow a reliable, disciplined and hardy legionnaire in the short term.
 The average duration of the recruitment and selection cycle is two weeks.
 The final selection committee is conducted centrally and is conducted under the leadership of komle.
-Since the foreign Legion cannot recruit personnel abroad, the group aims to spread the Legion\'s image abroad using the Internet and social networks.
+Since the foreign Legion cannot recruit personnel abroad, the group aims to spread the Legion\'s
+image abroad using the Internet and social networks.
 </string>
 
     <string name="history_create_text">
-The French Foreign Legion was established in accordance with the decree of King Louis Philippe I of March 9, 1831 (French: la Loi du 9 mars 1831) on the basis of several predecessor regiments.
-\n\nThe reason for the establishment of the Foreign Legion was the need to replenish the personnel of the French army,
+The French Foreign Legion was established in accordance with the decree of King Louis Philippe I of
+March 9, 1831 (French: la Loi du 9 mars 1831) on the basis of several predecessor regiments.
+\n\nThe reason for the establishment of the Foreign Legion was the need to replenish the personnel
+of the French army,
 which was fighting in North Africa and intended to conquer Algeria.
-\n\nKing Louis Philippe I decided to attract to the service numerous foreigners who settled in the country (Italians, Swiss, Spaniards, etc.),
+\n\nKing Louis Philippe I decided to attract to the service numerous foreigners who settled in the
+country (Italians, Swiss, Spaniards, etc.),
 as well as French citizens who had serious problems with the law.
-\n\nUsing the Foreign Legion, the king could hypothetically solve two problems — to create a series of combat-ready military formations,
-the backbone of which were citizens who were ready to do a lot for a second chance in life, as well as to clear the country of undesirable elements.
+\n\nUsing the Foreign Legion, the king could hypothetically solve two problems — to create a series
+of combat-ready military formations,
+the backbone of which were citizens who were ready to do a lot for a second chance in life, as well
+as to clear the country of undesirable elements.
 \n\nThe officers in the new legion were the ranks of the former army of Emperor Napoleon Bonaparte.
-\n\nThe royal decree stipulated several important elements, among which was the use of the legion exclusively outside France.
-\n\nThe legion could accept absolutely any combat-ready person: recruiters never asked questions about his past,
-and the service of a foreigner in the legion allowed him to return to civilian service with a new biography and new documents,
+\n\nThe royal decree stipulated several important elements, among which was the use of the legion
+exclusively outside France.
+\n\nThe legion could accept absolutely any combat-ready person: recruiters never asked questions
+about his past,
+and the service of a foreigner in the legion allowed him to return to civilian service with a new
+biography and new documents,
 in which there was no hint of possible past crimes.
-\n\nIn accordance with the decree of 1831, he is subordinate only to the head of the French state — currently the President of France.
+\n\nIn accordance with the decree of 1831, he is subordinate only to the head of the French state —
+currently the President of France.
     </string>
 
-    <string name="war_text"><b>The Foreign Legion took part in wars and operations in the following locations:</b>
+    <string name="war_text"><b>The Foreign Legion took part in wars and operations in the following
+locations:</b>
 \n\nFrench Algeria: 1831-1882
 \n\nSpain: 1835-1839
 \n\nThe Crimean War: 1853-1856
@@ -397,18 +563,24 @@ in which there was no hint of possible past crimes.
 \n\nKosovo: 1999
 \n\nMali: 2013
 \n\nIrak: 2016
-\n\nToday, the legion is used where the French state protects its interests within the framework of NATO or the European Union,
+\n\nToday, the legion is used where the French state protects its interests within the framework of
+NATO or the European Union,
 has historical responsibilities (for example, Ivory Coast) or where French citizens are in danger.
     </string>
 
     <string name="tradition_text">MAIN HOLIDAYS
 \n\n<b>The Battle of Cameron\n(Bataille de Camerone)</b>\n\n
-On April 30, 1863, in the village of Cameron, Mexico, sixty-three French legionnaires under the command of Captain Danjou resisted the Mexican army of more than two thousand people.
+On April 30, 1863, in the village of Cameron, Mexico, sixty-three French legionnaires under the
+command of Captain Danjou resisted the Mexican army of more than two thousand people.
 Every year this military holiday is solemnly celebrated wherever there are legionnaires.
-It embodies all the unifying values of the Foreign Legion: the sanctity of the mission, loyalty to the given word, as well as the common destiny chosen and accepted by officers, non-commissioned officers and legionnaires.
+It embodies all the unifying values of the Foreign Legion: the sanctity of the mission, loyalty to
+the given word, as well as the common destiny chosen and accepted by officers, non-commissioned
+officers and legionnaires.
 Preparation for this big holiday in the Legion is accompanied by a number of sports and very active events.
 \n\n<b>Christmas (Noel)</b>
-\n\n Catholic Christmas will be celebrated from December 24 to December 25. Preparation for the holiday in the Legion is accompanied by a number of sporting events, including cross-country, as well as stage performances.
+\n\n Catholic Christmas will be celebrated from December 24 to December 25. Preparation for the
+holiday in the Legion is accompanied by a number of sporting events, including cross-country,
+as well as stage performances.
 At the end of the events, the command presents useful and pleasant gifts to the personnel.\n\n
 <b>The Feast of Kings
 \n(La fête des Rois à la Légion)</b>\n\n
@@ -416,19 +588,27 @@ Celebrated in January. It is an entertaining event with performances and treats.
 \n\nTRADITIONAL ELEMENTS OF THE FORM
 \n\n<b>White cap
 \n(Le képi blanc)</b>\n\n
-The white cap is a symbol of a legionnaire all over the world. Initially, it was a khaki cap worn by all units involved in companies in Morocco.
-In the legion, under the influence of the sun and from repeated washing, he quickly assumed an impeccable white color and became the pride of the old-timers.
-The white cap will officially appear in Paris for the first time on July 14, 1939, and by the end of the war its wearing will be extended to all shelves.
+The white cap is a symbol of a legionnaire all over the world. Initially, it was a khaki cap worn by
+all units involved in companies in Morocco.
+In the legion, under the influence of the sun and from repeated washing, he quickly assumed an
+impeccable white color and became the pride of the old-timers.
+The white cap will officially appear in Paris for the first time on July 14, 1939, and by the end of
+the war its wearing will be extended to all shelves.
 \It is worn only by military personnel of the appropriate rank. Non-commissioned officers wear black caps.
 \n\n<b>Traditional shoulder pads
 \n(Les épaulettes de tradition)</b>
-\n\nEpaulette, which were worn on ceremonial clothes, acquired their final appearance with a green body and red turns back in 1868.
-The colors were inherited from the Swiss 2nd Legion of 1835. The traditional wearing of shoulder straps was periodically interrupted, and their wearing was finally restored in 1946.
+\n\nEpaulette, which were worn on ceremonial clothes, acquired their final appearance with a green
+body and red turns back in 1868.
+The colors were inherited from the Swiss 2nd Legion of 1835. The traditional wearing of shoulder
+straps was periodically interrupted, and their wearing was finally restored in 1946.
 \n\n<b>Blue Belt
 \n(La ceinture bleue)</b>
-\n\n Initially it was an accessory designed to protect internal organs. The blue color was preserved and became the distinctive badge of the Legion.
+\n\n Initially it was an accessory designed to protect internal organs. The blue color was preserved
+and became the distinctive badge of the Legion.
 \n\n <b>The code of honor of a legionnaire (Code d\'Honneur du Legionnaire)</b>
-\n\nThis is a set of unspoken rules, oral or written, which members of a certain group or society must comply with without fail. The Foreign Legion added to this the idea of oath and self-sacrifice.
+\n\nThis is a set of unspoken rules, oral or written, which members of a certain group or society
+must comply with without fail. The Foreign Legion added to this the idea of oath and
+self-sacrifice.
 \n\n<b>Article 1st</b>\nLegioner, you are a volunteer serving France with honor and loyalty.
 \n\n<b>Article 2nd</b>\nAny legionnaire, of any nationality, race, religion is your brother in arms.
 You always show him the solidarity that should unite all members of the same family.
@@ -446,8 +626,10 @@ of war and international agreements and, if necessary, at the risk of your life.
 opponent, you never leave your dead, your wounded, or your weapons.
     </string>
 
-    <string name="text1_legion_today">\"I\'m not saying that legionnaire is the best, but he is among the best!
-They are so good because they are volunteers. They chose to serve in the Foreign Legion and this is a personal choice of everyone.
+    <string name="text1_legion_today">\"I\'m not saying that legionnaire is the best, but he is
+among the best!
+They are so good because they are volunteers. They chose to serve in the Foreign Legion and this is
+a personal choice of everyone.
 They have thrown themselves a new challenge in life and have every reason to win.\"
 \n\n<b>Colonel Pierre Framager</b>
 </string>
@@ -456,31 +638,57 @@ They have thrown themselves a new challenge in life and have every reason to win
 Representatives of more than 140 nationalities serve here together.
 Legionnaires serve under contract and are commanded by French officers.
 \n\nToday, the Foreign Legion consists of a General Staff and eleven regiments.
-\n\nThree of these, three constitute the command of the Foreign Legion and report directly to the General commanding the Foreign Legion.
-They help in performing specific tasks for the benefit of the entire structure (general management, recruitment, training).
-\n\nSix regiments have been formed for use as part of the Ground Task Force (FOT). They participate in all external operations and missions on the national territory.
+\n\nThree of these, three constitute the command of the Foreign Legion and report directly to the
+General commanding the Foreign Legion.
+They help in performing specific tasks for the benefit of the entire structure (general management,
+recruitment, training).
+\n\nSix regiments have been formed for use as part of the Ground Task Force (FOT).
+They participate in all external operations and missions on the national territory.
 \n\nTwo regiments make up the land units of the sovereign forces abroad and serve in Guiana and Mayotte.
   </string>
 
     <string name="text3_legion_today"><b>The status established by law</b>\n\n
-Article L 4132-7 of the Code of Defense specifies \”as an exception to the condition of citizenship a foreign citizen may be admitted to service under a contract \".
-The Law of March 24, 2005 \“On the general status of military personnel\”. The main feature of the Foreign Legion is its ability, recognized by this law, to recruit foreigners who will be assigned to serve in France.
-The status of \"foreign\", enshrined in the decree of September 12, 2008 on military personnel serving as foreigners, is intended to regulate this ability.
-Article 1 of this decree states that \”military personnel serving in a foreign capacity are allowed to serve in the formations of the Foreign Legion\".
+Article L 4132-7 of the Code of Defense specifies \”as an exception to the condition of citizenship
+a foreign citizen may be admitted to service under a contract \".
+The Law of March 24, 2005 \“On the general status of military personnel\”. The main feature of the
+Foreign Legion is its ability, recognized by this law, to recruit foreigners who will be
+assigned to serve in France.
+The status of \"foreign\", enshrined in the decree of September 12, 2008 on military personnel
+serving as foreigners, is intended to regulate this ability.
+Article 1 of this decree states that \”military personnel serving in a foreign capacity are allowed
+to serve in the formations of the Foreign Legion\".
 \n\n<b>Combat training</b>
-\n\nThe Foreign Legion consists exclusively of infantry regiments with lightly armored vehicles. A legionnaire enlists in a Foreign Legion, not in any regiment or in a specific specialty.Upon completion of initial training lasting four months, legionnaires are assigned to a Legion regiment as needed. Thus, everyone should be able to hold any combat position.
+\n\nThe Foreign Legion consists exclusively of infantry regiments with lightly armored vehicles.
+A legionnaire enlists in a Foreign Legion, not in any regiment or in a specific specialty.
+Upon completion of initial training lasting four months, legionnaires are assigned to a
+Legion regiment as needed. Thus, everyone should be able to hold any combat position.
 \n\nConsisting from foreigners.
-\nAny a serviceman who has foreign citizenship serves under a contract, regardless of his rank. This provision applies to all categories of ranks: officers, non-commissioned officers or military personnel of the appropriate rank
+\nAny a serviceman who has foreign citizenship serves under a contract, regardless of his rank.
+This provision applies to all categories of ranks: officers, non-commissioned officers or military personnel of the appropriate rank
 \n\n<b>Ander by the French command</b>
-\n\nThe Foreign Legion is commanded by French officers from the ground forces. As an exception, in the amount of 10%, the Legion recruits officers serving in a foreign capacity (former legionnaires and non-commissioned officers). The General commanding the Foreign Legion and the officers assigned to the regiments are the guarantors of the legionnaire\'s loyalty to France.
+\n\nThe Foreign Legion is commanded by French officers from the ground forces. As an exception,
+in the amount of 10%, the Legion recruits officers serving in a foreign capacity
+(former legionnaires and non-commissioned officers). The General commanding the
+Foreign Legion and the officers assigned to the regiments are the guarantors of the legionnaire\'s
+loyalty to France.
 \n\n<b>90% of foreigners in the service of France</b>
-\n\nMore than 34% of the inhabitants of Western Europe, almost 28% of Slavs, about 12% of immigrants from the African continent, 13% of Asians, 13% from Latin America.
-French speakers, mostly French, make up 11% of the total number of people employed. The presence of a minimum number of native French speakers in the squad contributes to the learning of the French language necessary to understand orders. \nIn 2023, the legion will recruit about 1,500 legionnaires.
+\n\nMore than 34% of the inhabitants of Western Europe, almost 28% of Slavs, about 12% of immigrants
+from the African continent, 13% of Asians, 13% from Latin America.
+French speakers, mostly French, make up 11% of the total number of people employed. The presence of
+a minimum number of native French speakers in the squad contributes to the learning of the French
+language necessary to understand orders.
+\nIn 2023, the legion will recruit about 1,500 legionnaires.
 \n\n<b>Strict selection</b>
-\n\nThe candidate can begin selection for service with a simple presentation of a passport. This opportunity, offered exclusively for the recruitment of volunteers to the Foreign Legion, is regulated by the 2005 law. The Foreign Legion agrees to confirm the legionnaire\'s past, provided that it is fully known.
-After checking the candidates\' applications, their past is carefully studied. This provision provides a new opportunity for those who want to turn the page and start from scratch.
-\nThe Legion welcomes all volunteers as soon as they pass the selection tests. Only a little more than 20% succeed. Only the best are recruited into the Foreign Legion.
-\nThe principle of recruitment as a foreigner allows a French candidate to apply to the Legion, even if he serves in the status of a "foreigner", like his foreign comrades.
+\n\nThe candidate can begin selection for service with a simple presentation of a passport.
+This opportunity, offered exclusively for the recruitment of volunteers to the Foreign Legion,
+is regulated by the 2005 law.
+The Foreign Legion agrees to confirm the legionnaire\'s past, provided that it is fully known.
+After checking the candidates\' applications, their past is carefully studied. This provision provides
+a new opportunity for those who want to turn the page and start from scratch.
+\nThe Legion welcomes all volunteers as soon as they pass the selection tests. Only a little more
+than 20% succeed. Only the best are recruited into the Foreign Legion.
+\nThe principle of recruitment as a foreigner allows a French candidate to apply to the Legion,
+even if he serves in the status of a "foreigner", like his foreign comrades.
     </string>
 
     <string name="text_q_a"><b>Question #1:</b>\n
@@ -568,8 +776,9 @@ After this period, it is practically impossible to terminate the contract offici
 How are deserters tracked?\n
 <b>Answer:</b>\n
 No way. If you have deserted, you will be put on the list and if you do not return within a month, you
-will officially receive the status of a deserter. You can stay in France and they won\'t put you in jail,
-but the passage to the state service and other similar positions will be closed. There may also be problems
+will officially receive the status of a deserter.
+You can stay in France and they won\'t put you in jail, but the passage to the state service and
+other similar positions will be closed. There may also be problems
 with visas or the extension of an existing residence permit.\n\n
 <b>Question #13:</b>\n
 How much can you earn in the Legion?\n
@@ -577,8 +786,8 @@ How much can you earn in the Legion?\n
 You will not earn a lot of money, even average in Europe.
 A lot depends on how you can save and how to save.
 Some left after the first contract with empty pockets, some postponed 50 - 70
-thousands of euros for these 5 years. On average, it is feasible to save 1,000 euros a month without
-sometimes denying yourself favors.\n\n
+thousands of euros for these 5 years.
+On average, it is feasible to save 1,000 euros a month without sometimes denying yourself favors.\n\n
 <b>Question #14:</b>\n
 Do they take women into the Legion?\n
 <b>Answer:</b>\n
@@ -588,13 +797,15 @@ service, administrative services).\n\n
 <b>Question #15:</b>\n
 What can help you qualify for the Legion?\n
 <b>Answer:</b>\n
-Definitely nothing can affect the selection much. However, proficiency in French
-language skills or good musical instrument skills can have a positive impact on the selection result.
+Definitely nothing can affect the selection much.
+However, proficiency in French language skills or good musical instrument skills can have a positive
+impact on the selection result.
 The skills of playing an instrument will help if you want to pass the service as a musician.\n\n
 </string>
 
     <string name="text_centers">RECRUITMENT CENTERS OF THE FOREIGN LEGION\n\n
-Despite the fact that the reception is open around the clock, you are invited to appear from 08 00 in the morning to optimize the process.\n
+Despite the fact that the reception is open around the clock, you are invited to appear from 08 00
+in the morning to optimize the process.\n
 \n<b>PILE DE NANTES</b>
 \nPoste d\'information de la Légion étrangère
 \nOUVERTURE: Du lundi au vendredi de 08h00 à 18h00
@@ -742,11 +953,13 @@ Any legionnaire can make a career not thanks to school or professional diplomas 
 in the civilian sphere, but thanks to military or technical exams passed during service.
 All non-commissioned officers of the Legion begin their career as a simple legionnaire.
 \n\n<b>Career as an officer:</b>
-\n\n10% of the officers who served in the Foreign Legion first served as legionnaires, and then as non-commissioned officers.
+\n\n10% of the officers who served in the Foreign Legion first served as legionnaires, and then as
+non-commissioned officers.
 During the first few years of service as a legionnaire, up to and including the rank of corporal
 (that is, from 2 to 4 years old), you are dressed, fed and placed for free.
 The monetary allowance is what corresponds to the salary in civilian life.
-It is individual for everyone, since many criteria are taken into account when calculating it, the main of which are the following:\n
+It is individual for everyone, since many criteria are taken into account when calculating it, the
+main of which are the following:\n
 - title\n
 - work experience\n
 - marital status\n
@@ -760,7 +973,8 @@ for up to 5 years of service or up to the rank of non-commissioned officer.\n\n
 <b>Rights:</b>\n\n
 A legionnaire has the right to a vacation of 45 days a year (in agreement with the command).\n
 If not involved in the service, the weekend is free.\n
-Every legionnaire who has served for less than 5 years must wear a uniform while leaving the territory of the regiment.\n
+Every legionnaire who has served for less than 5 years must wear a uniform while leaving the territory
+of the regiment.\n
 During a long vacation, a legionnaire may be in civilian clothes.
 To get permission to travel abroad, a legionnaire must have an identity card of his country of origin,
 serve under his real name.\n
@@ -783,7 +997,8 @@ have a valid national identity card or passport.\n
 only a valid passport (required).\n
 - No academic diploma is required.\n
 - Be able to at least read and write in their native language.\n
-- Be older than 17 and a half years and younger than 39 and a half years on the day of applying for an information post.\n\n
+- Be older than 17 and a half years and younger than 39 and a half years on the day of applying for
+an information post.\n\n
 <b>You can provide documents confirming your past (optional):</b>\n\n
 - Driver\'s license.\n
 - Certificates of education or diplomas.\n
@@ -849,7 +1064,8 @@ by writing an email to recrutement@legion-etrangere.com.\n\n
 <b>temporary:</b>\n
 This decision has a validity period that can range from several months to a year.
 It is often associated with a slight disorder of health or poor preparation.
-The candidate is invited, if necessary, to eliminate health problems and show up for an appointment after the deadline.
+The candidate is invited, if necessary, to eliminate health problems and show up for an appointment
+after the deadline.
 </string>
 
     <string name="text_preparation1">WHAT TO PREPARE FOR WHEN ENTERING \n\n
@@ -940,9 +1156,11 @@ You will also pass all other measurements: height, weight, pressure, etc.
 <u>Pull-ups.</u>\n
 You need to pull up at least 5 times. Full pull-ups in pronation
 (starting with an outstretched arm, in the lower position between each pull-up).
-The video with the execution will be below. If the candidate pulls up less or with the wrong technique, he is rejected.
+The video with the execution will be below. If the candidate pulls up less or with the wrong technique,
+he is rejected.
 If you have difficulties with pulling up, you can find a lot of programs on the Internet to improve the result.
-Never focus on the minimum! Always do the maximum for any tests.
+Never focus on the minimum!
+Always do the maximum for any tests.
 Remember – selection is a competition in which preference is given to the best in terms of indicators,
 and not only to those who have completed the minimum.\n\n
 <u>The "Luke Legere" test.</u>\n
@@ -955,8 +1173,8 @@ During the preparation period, do not do this test often! This is a test, not a 
 Work at a distance of up to 3-4 kilometers, do interval training with acceleration
 at a distance, conduct explosive acceleration training at 30-50 meters.
 During the test, practice a steady increase in pace, also make sure
-that both legs cross the line. Bring the result to a minimum of 6-7 pals,
-do not stop at the minimum.\n\n
+that both legs cross the line.
+Bring the result to a minimum of 6-7 pals,do not stop at the minimum.\n\n
 <u>Swimming. At least 25 meters in any style.</u>\n
 Everything is simple here – the main thing is to swim 25 meters in any style. The main task is to swim.
 The test was introduced due to the excess of candidates who do not know how to swim and who, when
@@ -970,18 +1188,21 @@ As a rule, the first test at the selection point consists of 10-12 questions per
 on a piece of paper and allows you to determine the candidate as \“a fool, not a fool\".
 In the future, the candidate will take several types of tests on a computer for up to 2 hours.
 These will be tests for logic, spatial thinking, and mindfulness.
-Then there will be links to similar tests. It is important to understand that if you solve a test well,
-it does not mean that you will also solve another test of the same kind.\n
+Then there will be links to similar tests.
+It is important to understand that if you solve a test well,it does not mean that you will also
+solve another test of the same kind.\n
 You need to learn to understand the logic of tests, learn how to define algorithms in these tests.
 As a rule, test results are not reported, if they were performed below the acceptable level,
-then the candidate is immediately rejected, if the result meets the standards, then the candidate is allowed further.
+then the candidate is immediately rejected, if the result meets the standards, then the candidate
+is allowed further.
 </string>
 
     <string name="text_preparation5"><b>Interview with a psychologist.</b>\n
 <b>Interview with the security service \“Gestapo\”.</b>\n\n
 These are the most important points at the selection stage. Important and absolutely individual with each candidate.
 There are no specific rules for their passage.
-You will also not know about the results of these interviews – they will be considered by a closed commission. The goals of the two
+You will also not know about the results of these interviews – they will be considered by a closed
+commission. The goals of the two
 interviews are similar – to identify your strengths and weaknesses, level of motivation,
 ability to social adaptation, erudition, etc.\n
 The duration of the interview with the psychologist is no more than an hour in a relaxed atmosphere in
@@ -998,16 +1219,18 @@ They will study your dossier, phone numbers, even urine tests for drugs.\n
 You can be insulted, ask incorrect questions, humiliate you. You can be rejected
 if you show aggression, but also if you remain indifferent.
 Before that, make up your legend, which you will follow and not stray from it,
-work it out carefully. Believe in what you say, show character,
-but not aggressiveness, show yourself not stupid.
+work it out carefully.
+Believe in what you say, show character,but not aggressiveness, show yourself not stupid.
 </string>
 
     <string name="text_preparation6">ON THE SERVICE\n\n
 <b>Preparation.</b>\n
 If you have been selected with the last of your strength, then you will have a hard time during the service.
-The Legion has a lot of workloads. That is why, before the trip, you should take care of
-good physical fitness and put your health in order. Hundreds of people come to the legion,
-but only 20% arrive, and some of them leave the unit after selection, and some more during the first contract.
+The Legion has a lot of workloads.
+That is why, before the trip, you should take care of
+good physical fitness and put your health in order.
+Hundreds of people come to the legion,but only 20% arrive, and some of them leave the unit after
+selection, and some more during the first contract.
 All this is due to loss of motivation, undermined health, stress, language barrier.\n
 Do not stop working on yourself, on your motivation, on your health and
 training even after signing the contract. Below will be links to what legionnaires face.
@@ -1016,7 +1239,8 @@ training even after signing the contract. Below will be links to what legionnair
     <string name="text_preparation7"><b>French.</b>\n
 Already at the admission stage, it is recommended to master the French language.
 Sign up for courses or start studying on your own before the trip, train on apps.
-Knowledge of the language at the selection stage will be a plus for you. Already during the service with the legionnaires
+Knowledge of the language at the selection stage will be a plus for you. Already during the service
+with the legionnaires
 I will conduct language classes, but I cannot do without independent training.\n\n
 <b>A small set of words and expressions for the first time.</b>
 \n\n<b>Bonne chance                     </b>

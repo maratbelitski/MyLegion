@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,46 +8,40 @@
     android:orientation="vertical"
     tools:context=".candidate.MedicFragment">
 
-    <ScrollView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:orientation="vertical">
 
-        <LinearLayout
+        <ImageView
             android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:contentDescription="@string/contentDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/header_medic" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text_preparation2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/header_medic"
-                android:contentDescription="@string/contentDescription"/>
+        <include
+            layout="@layout/layout_advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text_preparation2"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
-
-            <include
-                layout="@layout/layout_advice"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:padding="@dimen/padding"
-                android:text="@string/text_advice2"
-                android:textColor="@color/black"
-                android:textSize="@dimen/size_text_normal" />
-        </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="@dimen/padding"
+            android:text="@string/text_advice2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_normal" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
