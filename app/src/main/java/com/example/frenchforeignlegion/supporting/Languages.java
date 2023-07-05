@@ -5,6 +5,7 @@ package com.example.frenchforeignlegion.supporting;
  * @date 04.07.2023
  */
 public class Languages {
+
     String nameLanguage;
     int imageLanguage;
 

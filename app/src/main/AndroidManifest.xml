@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/lego_log_test"
+        android:icon="@drawable/lego_leg_test"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/lego_log_test"
+        android:roundIcon="@drawable/lego_leg_test"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar"
         tools:targetApi="33">
+
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
@@ -78,5 +80,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
