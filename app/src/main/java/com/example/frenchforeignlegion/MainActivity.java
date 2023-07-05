@@ -1,23 +1,28 @@
 package com.example.frenchforeignlegion;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.frenchforeignlegion.candidate.CandidateActivity;
 import com.example.frenchforeignlegion.history.HistoryActivity;
+import com.example.frenchforeignlegion.supporting.Languages;
+import com.example.frenchforeignlegion.supporting.SpinnerAdapter;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
-import java.util.Arrays;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-public class MainActivity extends AppCompatActivity implements ButtonsAnimation{
+public class MainActivity extends AppCompatActivity implements ButtonsAnimation {
     @SuppressLint({"ClickableViewAccessibility", "ResourceAsColor", "ResourceType", "CutPasteId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,25 +41,32 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation{
         showAnimationButton(b_candidate);
         showAnimationButton(b_settings);
 
-        List<String> languages = Arrays.asList(getResources().getStringArray(R.array.languages));
-        ArrayAdapter<String> mAdapter = new ArrayAdapter<>(this, R.layout.layout_spinner, R.id.spinner_text, languages);
-        spinner.setAdapter(mAdapter);
+        List<Languages> languagesList = new ArrayList<>();
+        String rus = getResources().getString(R.string.spinner_ru);
+        String eng = getResources().getString(R.string.spinner_en);
+        languagesList.add(new Languages(rus, R.drawable.ic_russia));
+        languagesList.add(new Languages(eng, R.drawable.ic_usa));
 
+        SpinnerAdapter spinnerAdapter = new SpinnerAdapter(this, R.layout.layout_spinner, languagesList);
+        spinner.setAdapter(spinnerAdapter);
 
         //добовляем тост с уведомлением о смене языка
         Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
+
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @SuppressLint("UseCompatLoadingForDrawables")
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String selectedItem = spinner.getSelectedItem().toString();
 
-                if (selectedItem.equalsIgnoreCase("анг")) {
+                Languages selectedItem = (Languages) spinner.getSelectedItem();
+                String s = selectedItem.getNameLanguage();
+
+                if (s.equalsIgnoreCase("английский")) {
                     changeLanguage("en");
                     toast.setText(R.string.toast_spinner);
                     toast.show();
 
-                } else if (selectedItem.equalsIgnoreCase("rus")) {
+                } else if (s.equalsIgnoreCase("russian")) {
                     changeLanguage("ru");
                     toast.setText(R.string.toast_spinner);
                     toast.show();

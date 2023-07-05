@@ -1,4 +1,4 @@
-package com.example.frenchforeignlegion.today;
+package com.example.frenchforeignlegion.supporting;
 import androidx.annotation.NonNull;
 import com.example.frenchforeignlegion.R;
 
@@ -39,7 +39,7 @@ public class Regiments {
     public String toString() {
         return String.valueOf(this.nameID);
     }
-    static final Regiments[] regiments = {
+    public static final Regiments[] regiments = {
             new Regiments(R.string.name_regiment_0, R.string.name_description_0, R.drawable.logo_1re,R.drawable.header_1re),
             new Regiments(R.string.name_regiment_1, R.string.name_description_1, R.drawable.logo_1rec,R.drawable.header_1rec),
             new Regiments(R.string.name_regiment_2, R.string.name_description_2, R.drawable.logo_1reg,R.drawable.header_1reg),

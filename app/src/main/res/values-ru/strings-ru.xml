@@ -4,6 +4,10 @@
     <!--    <i>наклонный шрифт</i>-->
     <!--    <u>подчеркнутый шрифт</u>-->
 
+    <string name="spinner_ru">Русский</string>
+    <string name="spinner_en">Английский</string>
+
+
     <string name="toast_setting">Вы уже здесь</string>
     <string name="toast_spinner">Ваш язык Русский</string>
 

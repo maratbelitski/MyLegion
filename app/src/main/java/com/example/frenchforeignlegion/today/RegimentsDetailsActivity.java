@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import com.example.frenchforeignlegion.MenuMethods;
 import com.example.frenchforeignlegion.R;
+import com.example.frenchforeignlegion.supporting.Regiments;
 
 public class RegimentsDetailsActivity extends AppCompatActivity implements MenuMethods {
     @Override
