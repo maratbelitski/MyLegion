@@ -1,4 +1,5 @@
 package com.example.frenchforeignlegion;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,14 +8,17 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.core.os.LocaleListCompat;
+
 import com.example.frenchforeignlegion.candidate.CandidateActivity;
 import com.example.frenchforeignlegion.history.HistoryActivity;
 import com.example.frenchforeignlegion.supporting.Languages;
 import com.example.frenchforeignlegion.supporting.SpinnerAdapter;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +45,9 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
         List<Languages> languagesList = new ArrayList<>();
         String rus = getResources().getString(R.string.spinner_ru);
         String eng = getResources().getString(R.string.spinner_en);
+        String def = getResources().getString(R.string.spinner_default);
 
+        languagesList.add(new Languages(def, R.drawable.ic_language));
         languagesList.add(new Languages(eng, R.drawable.ic_usa));
         languagesList.add(new Languages(rus, R.drawable.ic_russia));
         SpinnerAdapter spinnerAdapter = new SpinnerAdapter(this, R.layout.layout_spinner, languagesList);
@@ -52,20 +58,22 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
             @SuppressLint("UseCompatLoadingForDrawables")
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                if (position != 0) {
+                    Languages selectedItem = (Languages) spinner.getSelectedItem();
+                    String s = selectedItem.getNameLanguage();
 
-                Languages selectedItem = (Languages) spinner.getSelectedItem();
-                String s = selectedItem.getNameLanguage();
-
-                if (s.equalsIgnoreCase("английский")) {
-                    changeLanguage("en");
-                    toast.setText("English is selected");
-                    toast.show();
-                } else if (s.equalsIgnoreCase("russian")) {
-                    changeLanguage("ru");
-                    toast.setText("Выбран русский язык");
-                    toast.show();
+                    if (s.equalsIgnoreCase("английский")) {
+                        changeLanguage("en");
+                        toast.setText("English is selected");
+                        toast.show();
+                    } else if (s.equalsIgnoreCase("russian")) {
+                        changeLanguage("ru");
+                        toast.setText("Выбран русский язык");
+                        toast.show();
+                    }
                 }
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }

@@ -19,7 +19,7 @@
     <string name="b_list_choice_9" translatable="false">\  DLEM</string>
     <string name="b_list_choice_10" translatable="false">\  GRLE</string>
 
-
+    <string name="spinner_default">Default</string>
     <string name="spinner_ru">Russian</string>
     <string name="spinner_en">English</string>
 
