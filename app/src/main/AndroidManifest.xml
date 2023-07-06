@@ -12,7 +12,8 @@
         android:roundIcon="@drawable/lego_leg_test"
         android:supportsRtl="true"
         android:theme="@style/NoActionBar"
-        tools:targetApi="33">
+        tools:targetApi="33"
+        tools:ignore="LockedOrientationActivity">
 
         <activity
             android:name=".SettingsActivity"
@@ -23,7 +24,7 @@
             android:name=".candidate.PreparationActivity"
             android:exported="false"
             android:parentActivityName=".candidate.CandidateActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".candidate.OfficiallyActivity"
             android:exported="false"

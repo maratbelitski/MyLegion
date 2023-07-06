@@ -58,10 +58,12 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
 
                 if (s.equalsIgnoreCase("английский")) {
                     changeLanguage("en");
-//                    toast.setText(R.string.toast_spinner);
-//                    toast.show();
+                    toast.setText("English is selected");
+                    toast.show();
                 } else if (s.equalsIgnoreCase("russian")) {
                     changeLanguage("ru");
+                    toast.setText("Выбран русский язык");
+                    toast.show();
                 }
             }
             @Override
