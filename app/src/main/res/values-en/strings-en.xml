@@ -19,6 +19,7 @@
     <string name="b_list_choice_9" translatable="false">\  DLEM</string>
     <string name="b_list_choice_10" translatable="false">\  GRLE</string>
 
+
     <string name="spinner_default">Default</string>
     <string name="spinner_ru">Russian</string>
     <string name="spinner_en">English</string>
@@ -1090,7 +1091,7 @@ after the deadline.
 - general body examination.\n\n
 <b>Entrance tests for physical fitness:</b>\n
 - pull-ups at least 5 times, \n
-- test “Luke Legere",\n
+- test \"Luke Legere\",\n
 - Swimming. At least 25 meters in any style.\n\n
 <b>Psychotechnical tests:</b>\n
 - logic tests,\n
@@ -1266,11 +1267,11 @@ Already at the admission stage, it is recommended to master the French language.
 but you can\'t do without independent training.\n\n
 <b>A small set of words and expressions for the first time.</b>
 \n\n<b>Bonne chance                     </b>
-Good luck
+\nGood luck
 \n\n<b>Bonne journée                    </b>
 \nHave a good day
 \n\n<b>Bon week-end                     </b>
-\Have a good weekend
+\nHave a good weekend
 \n\n<b>À ce soir                        </b>
 \n Do of the evening
 \n\n<b>Excusez-moi                      </b>
@@ -1297,10 +1298,6 @@ Good luck
 \n Sorry
 \n\n<b>Madame !                         </b>
 \nWoman
-\n\n<b>Camarades !                      </b>
-\Friends!
-\n\n<b>S\’il vous plait                 </b>
-\nPlease
 \n\n<b>Merci                            </b>
 \nThanks
 \n\n<b>Merci beaucoup                   </b>

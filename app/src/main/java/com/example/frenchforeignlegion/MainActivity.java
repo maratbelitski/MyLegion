@@ -73,7 +73,6 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
                     }
                 }
             }
-
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
