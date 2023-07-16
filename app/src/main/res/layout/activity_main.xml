@@ -102,11 +102,24 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:background="@drawable/custom_buttons_main"
                 android:onClick="showButtonAction"
                 android:padding="@dimen/padding"
                 android:text="@string/button_candidate"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text_button" />
+
+            <Button
+                android:id="@+id/b_practice"
+                android:layout_width="@dimen/width_button_main"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_buttons_main"
+                android:onClick="showButtonAction"
+                android:padding="@dimen/padding"
+                android:text="@string/button_practice"
                 android:textColor="@color/white"
                 android:textSize="@dimen/size_text_button" />
         </LinearLayout>

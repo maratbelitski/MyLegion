@@ -14,15 +14,15 @@ import com.example.frenchforeignlegion.R;
 public class RegimentsActivity extends AppCompatActivity implements MenuMethods {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
         showMenu(item,this,MainActivity.class);
-
         return super.onOptionsItemSelected(item);
     }
 

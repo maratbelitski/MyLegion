@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:background="@color/green"
             app:tabMode="scrollable"
+            app:tabGravity="fill"
             app:tabTextColor="@color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 

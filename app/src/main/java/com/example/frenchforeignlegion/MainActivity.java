@@ -15,6 +15,7 @@ import androidx.core.os.LocaleListCompat;
 
 import com.example.frenchforeignlegion.candidate.CandidateActivity;
 import com.example.frenchforeignlegion.history.HistoryActivity;
+import com.example.frenchforeignlegion.practice.PracticeActivity;
 import com.example.frenchforeignlegion.supporting.Languages;
 import com.example.frenchforeignlegion.supporting.SpinnerAdapter;
 import com.example.frenchforeignlegion.today.RegimentsActivity;
@@ -35,10 +36,12 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
         Button b_settings = findViewById(R.id.b_settings);
         Button b_history = findViewById(R.id.b_history);
         Button b_regiment_today = findViewById(R.id.b_regiment_today);
+        Button b_practice = findViewById(R.id.b_practice);
         Button b_candidate = findViewById(R.id.b_candidate);
 
         showAnimationButton(b_history);
         showAnimationButton(b_regiment_today);
+        showAnimationButton(b_practice);
         showAnimationButton(b_candidate);
         showAnimationButton(b_settings);
 
@@ -92,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
      * action for buttons
      */
     public void showButtonAction(View view) {
-        Class destinations = null;
+        Class<?> destinations = null;
         int temp = view.getId();
         if (temp == R.id.b_settings) {
             destinations = SettingsActivity.class;
@@ -100,6 +103,8 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
             destinations = HistoryActivity.class;
         } else if (temp == R.id.b_regiment_today) {
             destinations = RegimentsActivity.class;
+        } else if (temp == R.id.b_practice) {
+            destinations = PracticeActivity.class;
         } else if (temp == R.id.b_candidate) {
             destinations = CandidateActivity.class;
         }

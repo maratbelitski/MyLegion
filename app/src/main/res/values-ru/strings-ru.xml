@@ -38,7 +38,7 @@ email: belitski.dev@gmail.com</string>
     <string name="toolbar_question_answer">MyLegion. Вопрос/Ответ</string>
     <string name="toolbar_preparation">MyLegion. Подготовка</string>
     <string name="toolbar_setting">MyLegion. Информация</string>
-
+    <string name="toolbar_practice">MyLegion. Практика</string>
 
     <string name="button_history">история</string>
     <string name="button_history_creation">история создания</string>
@@ -50,7 +50,10 @@ email: belitski.dev@gmail.com</string>
     <string name="button_preparation">подготовка</string>
     <string name="button_question_answer">вопрос/ответ</string>
     <string name="button_rate_app">оцените !</string>
-
+    <string name="button_practice">Практика</string>
+    <string name="button_psychologist">психолог</string>
+    <string name="button_security_service">внутренняя служба</string>
+    <string name="button_tests">тесты</string>
 
     <string name="button_videos_engagement">\ видео: центр отбора </string>
     <string name="button_videos_legion">\ видео: легион</string>

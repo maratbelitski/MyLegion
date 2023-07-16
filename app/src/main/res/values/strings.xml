@@ -55,6 +55,7 @@ email: belitski.dev@gmail.com </string>
     <string name="toolbar_question_answer">MyLegion. Question/Answer</string>
     <string name="toolbar_preparation">MyLegion. Preparation</string>
     <string name="toolbar_setting">MyLegion. Information</string>
+    <string name="toolbar_practice">MyLegion. Practice</string>
 
 
     <string name="button_history">History</string>
@@ -67,7 +68,10 @@ email: belitski.dev@gmail.com </string>
     <string name="button_preparation">preparation</string>
     <string name="button_question_answer">question/answer</string>
     <string name="button_rate_app">rate app !</string>
-
+    <string name="button_practice">practice</string>
+    <string name="button_psychologist">psychologist</string>
+    <string name="button_security_service">security service</string>
+    <string name="button_tests">tests</string>
 
     <string name="button_videos_engagement">\ video: selection</string>
     <string name="button_videos_legion">\ video: legion</string>
