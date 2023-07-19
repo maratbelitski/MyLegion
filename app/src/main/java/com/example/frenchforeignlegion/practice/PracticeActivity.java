@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,7 +38,7 @@ public class PracticeActivity extends AppCompatActivity implements MenuMethods, 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setTitle(R.string.toolbar_history);
+        setTitle(R.string.toolbar_practice);
 
         Button history_creation=findViewById(R.id.b_psychologist);
         Button b_security_service=findViewById(R.id.b_security_service);
@@ -49,16 +50,17 @@ public class PracticeActivity extends AppCompatActivity implements MenuMethods, 
     }
 
     public void showButtonAction(View view) {
-        Class destinations = null;
+        String toast = getResources().getString(R.string.toast_development);
+        Class<?> destinations = null;
         int temp = view.getId();
         if (temp == R.id.b_psychologist) {
-            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
             //destinations = HistoryCreateActivity.class;
         } else if (temp == R.id.b_security_service) {
-            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
             // destinations = WarActivity.class;
         } else if (temp == R.id.b_tests) {
-            Toast.makeText(this, "Coming soon", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
             //destinations = TraditionActivity.class;
         }
 //        Intent intent = new Intent(this, destinations);

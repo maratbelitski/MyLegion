@@ -11,7 +11,7 @@
 
     <string name="toast_setting">Вы уже здесь</string>
     <string name="toast_spinner">Ваш язык Русский</string>
-
+    <string name="toast_development">В разработке</string>
 
     <string name="menu_back">Назад</string>
     <string name="menu_info">Инфо</string>

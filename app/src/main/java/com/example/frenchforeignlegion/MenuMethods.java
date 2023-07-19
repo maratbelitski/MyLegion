@@ -2,6 +2,7 @@ package com.example.frenchforeignlegion;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.MenuItem;
+
 import androidx.appcompat.app.AppCompatCallback;
 
 /**
@@ -9,7 +10,7 @@ import androidx.appcompat.app.AppCompatCallback;
  * @date 02.07.2023
  */
 public interface MenuMethods extends AppCompatCallback {
-    default void showMenu(MenuItem item, Activity activityThis,Class activityTo){
+    default void showMenu(MenuItem item, Activity activityThis,Class<?> activityTo){
 
         if (item.getItemId() == R.id.action_back) {
             Intent intent = new Intent(activityThis, activityTo);

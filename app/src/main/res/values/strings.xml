@@ -27,6 +27,7 @@
 
     <string name="toast_setting">You are here</string>
     <string name="toast_spinner">Your language is English</string>
+    <string name="toast_development">In development</string>
 
 
     <string name="menu_back">Back</string>
