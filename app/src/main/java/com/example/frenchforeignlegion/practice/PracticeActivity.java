@@ -54,8 +54,9 @@ public class PracticeActivity extends AppCompatActivity implements MenuMethods, 
         Class<?> destinations = null;
         int temp = view.getId();
         if (temp == R.id.b_psychologist) {
-            Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
-            //destinations = HistoryCreateActivity.class;
+            destinations = PsychologistActivity.class;
+            Intent intent = new Intent(this, destinations);
+            startActivity(intent);
         } else if (temp == R.id.b_security_service) {
             Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
             // destinations = WarActivity.class;

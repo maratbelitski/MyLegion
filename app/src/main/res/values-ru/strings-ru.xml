@@ -39,6 +39,7 @@ email: belitski.dev@gmail.com</string>
     <string name="toolbar_preparation">MyLegion. Подготовка</string>
     <string name="toolbar_setting">MyLegion. Информация</string>
     <string name="toolbar_practice">MyLegion. Практика</string>
+    <string name="toolbar_psychologist">MyLegion. Психолог</string>
 
     <string name="button_history">история</string>
     <string name="button_history_creation">история создания</string>

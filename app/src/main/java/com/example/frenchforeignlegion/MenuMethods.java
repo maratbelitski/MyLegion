@@ -13,8 +13,7 @@ public interface MenuMethods extends AppCompatCallback {
     default void showMenu(MenuItem item, Activity activityThis,Class<?> activityTo){
 
         if (item.getItemId() == R.id.action_back) {
-            Intent intent = new Intent(activityThis, activityTo);
-            activityThis.startActivity(intent);
+          activityThis.finish();
         } else if (item.getItemId() == R.id.action_info) {
             Intent intent = new Intent(activityThis, SettingsActivity.class);
             activityThis.startActivity(intent);

@@ -30,7 +30,9 @@
         android:gravity="start"
         android:text="@string/text_setting"
         android:textColor="@color/black"
-        android:textSize="@dimen/size_text_normal" />
+        android:textSize="@dimen/size_text_normal"
+        android:autoLink="email"
+        android:textColorLink="@color/blue"/>
 
     <Button
         android:id="@+id/b_rate_app"

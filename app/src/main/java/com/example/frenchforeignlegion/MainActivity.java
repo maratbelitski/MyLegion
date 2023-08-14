@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
         SpinnerAdapter spinnerAdapter = new SpinnerAdapter(this, R.layout.layout_spinner, languagesList);
         spinner.setAdapter(spinnerAdapter);
 
-        Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @SuppressLint("UseCompatLoadingForDrawables")
             @Override
@@ -67,12 +66,8 @@ public class MainActivity extends AppCompatActivity implements ButtonsAnimation 
 
                     if (s.equalsIgnoreCase("английский")) {
                         changeLanguage("en");
-                        toast.setText("English is selected");
-                        toast.show();
                     } else if (s.equalsIgnoreCase("russian")) {
                         changeLanguage("ru");
-                        toast.setText("Выбран русский язык");
-                        toast.show();
                     }
                 }
             }

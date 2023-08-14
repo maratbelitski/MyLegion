@@ -57,6 +57,7 @@ email: belitski.dev@gmail.com </string>
     <string name="toolbar_preparation">MyLegion. Preparation</string>
     <string name="toolbar_setting">MyLegion. Information</string>
     <string name="toolbar_practice">MyLegion. Practice</string>
+    <string name="toolbar_psychologist">MyLegion. Psychologist</string>
 
 
     <string name="button_history">History</string>

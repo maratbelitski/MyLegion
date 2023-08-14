@@ -25,8 +25,7 @@ public class SettingsActivity extends AppCompatActivity implements ButtonsAnimat
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         if (item.getItemId() == R.id.action_back) {
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
+            finish();
         } else if (item.getItemId() == R.id.action_info) {
             Toast toast = Toast.makeText(this, "", Toast.LENGTH_SHORT);
             toast.setText(R.string.toast_setting);
