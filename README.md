@@ -1,8 +1,7 @@
 # MyLegion
 
 MyLegion v1.2
-
-![logo_mylegion_512](https://github.com/ZlayaBelka/MyLegion/assets/120802046/f5e8c5f9-6ae1-4939-aabf-edb7bffc4e09)
+<img src="![lego_log](https://github.com/ZlayaBelka/MyLegion/assets/120802046/39c68603-dd74-461b-b8a7-35937c374e2e)" width="300">
 
 Приложение "MyLegion" является простым информационно - развлекательным ресурсом.
 Содержит информацию о подразделении ВС Франции - ФИЛ: история, настоящее время, информация для кандидатов.
