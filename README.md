@@ -1,7 +1,7 @@
 # MyLegion
 
 <p align="center">
-  <img src="https://i.imgur.com/iRrVwsl.png" width="200" height ="200" title="hover text">
+  <img src="https://i.imgur.com/iRrVwsl.png" width="200" height ="200">
 </p>
 
 <p align="center">
@@ -35,4 +35,5 @@
 - Collections;
 - Interfaceces;
 
-  [![Mazda FC RX-7 - A little drifting action](https://i.imgur.com/xEhOUii.png)](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&hl=ru)
+
+  [<img src="https://i.imgur.com/xEhOUii.png" width="300" height ="100" >](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&hl=ru)
