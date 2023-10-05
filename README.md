@@ -35,6 +35,4 @@
 - Collections;
 - Interfaceces;
 
-<img alt="alt_text" width="40px" src="https://imgur.com/xEhOUii"(https://www.google.com/)
-
-[MyLegion in Google Play](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&pcampaignid=web_share)
+  [![Mazda FC RX-7 - A little drifting action](https://i.imgur.com/xEhOUii.png)](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&hl=ru)
