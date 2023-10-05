@@ -21,5 +21,5 @@ MyLegion v1.2
 - Arrays;
 - Collections;
 - Interfaceces;
-
-https://play.google.com/store/apps/details?id=com.frenchforeignlegion&pcampaignid=web_share
+  
+[MyLegion in Google Play](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&pcampaignid=web_share)
