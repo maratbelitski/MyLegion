@@ -1,13 +1,13 @@
 # MyLegion
 
 <p align="center">
-  <img src="https://i.imgur.com/iRrVwsl.png" width="350" title="hover text">
+  <img src="https://i.imgur.com/iRrVwsl.png" width="200" height ="200" title="hover text">
 </p>
 
 <p align="center">
-   <img src="https://i.imgur.com/iKfsbB5.jpg" width="300" height ="450">
-   <img src="https://i.imgur.com/51ar2OC.jpg" width="300" height ="450">
-   <img src="https://i.imgur.com/Exj2UTJ.jpg" width="300" height ="450">
+   <img src="https://i.imgur.com/iKfsbB5.jpg" width="200" height ="400">
+   <img src="https://i.imgur.com/51ar2OC.jpg" width="200" height ="400">
+   <img src="https://i.imgur.com/Exj2UTJ.jpg" width="200" height ="400">
 </p>
 
 # Description
