@@ -1,7 +1,7 @@
 # MyLegion
 
 <img src="(https://github.com/ZlayaBelka/MyLegion/assets/120802046/fa308b85-02cd-4c4f-94cf-68c7fb0b962c)" width="50%" height="50%">
-![lego_log](https://github.com/ZlayaBelka/MyLegion/assets/120802046/fa308b85-02cd-4c4f-94cf-68c7fb0b962c)
+
 
 
 ![Screenshot_20230624-130422108](https://github.com/ZlayaBelka/MyLegion/assets/120802046/51ee2bfe-150a-46fa-8531-c8023ba3f559)
