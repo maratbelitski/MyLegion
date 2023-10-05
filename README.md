@@ -35,5 +35,4 @@
 - Collections;
 - Interfaceces;
 
-
-  [<img src="https://i.imgur.com/xEhOUii.png" width="300" height ="100" >](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&hl=ru)
+[<img src="https://i.imgur.com/xEhOUii.png" width="300" height ="100" >](https://play.google.com/store/apps/details?id=com.frenchforeignlegion&hl=ru)
